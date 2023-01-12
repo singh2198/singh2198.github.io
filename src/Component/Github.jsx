@@ -2,17 +2,17 @@ import React from "react";
 import github1 from "../assets/github1.png";
 import github2 from "../assets/github2.png";
 
-function Github(){
+function Github() {
   return (
     <>
       <div className="bg-gradient-to-b from-black to-gray-800 w-full md:h-full text-white grid justify-items-center">
-        <h2 className="text-4xl p-10">Github </h2>
+        {/* <h2 className="text-4xl inline text-start">Github </h2> */}
         <img src={github1} alt="dummy_img" width={"70%"} />
         <img
           src={github2}
           alt="dummy_img_github"
           width={"40%"}
-          style={{ padding: "2rem" }}
+          style={{ padding: "3rem" }}
         />
       </div>
     </>

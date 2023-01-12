@@ -1,7 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { BsTwitter } from "react-icons/bs";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Contact = () => {
   const links = [
@@ -9,7 +10,7 @@ const Contact = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/akash-singh-7ba9a0190/",
@@ -19,7 +20,7 @@ const Contact = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          <FaGithub size={30} />
         </>
       ),
       href: "https://github.com/singh2198",
@@ -28,11 +29,20 @@ const Contact = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          <HiOutlineMail size={30} />
         </>
       ),
       href: "mailto:foo@gmail.com",
     },
+    // {
+    //   id: 4,
+    //   child: (
+    //     <>
+    //       <BsTwitter size={30} />
+    //     </>
+    //   ),
+    //   href: "",
+    // },
   ];
 
   return (
@@ -42,9 +52,7 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full mt-10">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Contact
-          </p>
+          <p className="text-4xl font-bold ">Contact</p>
           <p className="py-6 text-center font-bold text-xl">
             Don't we Shy Contact me :
           </p>
@@ -81,16 +89,15 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="grid justify-items-center">
+        <div className="">
           {/* <h3 className="text-1xl">Contact Number :8755741512</h3> */}
 
-          <ul>
+          <ul className="flex flex-row justify-center">
             {links.map(({ id, child, href, style, download }) => (
               <li
-              
                 key={id}
                 className={
-                  "flex justify-between  items-center w-40 h-14 px-4  hover:rounded-md duration-300 "
+                  "flex  items-center w-30 h-14 px-3  hover:rounded-md duration-300 "
                 }
               >
                 <a
