@@ -38,7 +38,7 @@ const Experiance = () => {
       id: 5,
       src: github,
       title: "Github",
-      style: "shadow-black-500",
+      style: "shadow-red-500",
     },
     {
       id: 6,
@@ -50,14 +50,14 @@ const Experiance = () => {
       id: 1,
       src: nextjs,
       title: "Nextjs",
-      style: "shadow-white-500",
+      style: "shadow-orange-500",
     },
   ];
 
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b from-black to-gray-800 w-full md:h-full text-white "
+      className="bg-gradient-to-b from-black to-gray-800 w-full md:h-auto text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-10">
@@ -66,11 +66,11 @@ const Experiance = () => {
         </div>
       </div>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-20 px-20 sm:px-0  md:mx-20 mt-5">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-20 px-15 mx-10 grid-cols-2 sm:px-0  md:mx-20 mt-5 ">
         {projects.map(({ id, src, style, title }) => (
           <div
             key={id}
-            className={`shadow-lg  rounded-lg ${style} hover:cursor-pointer hover:scale-105 `}
+            className={`shadow-lg  rounded-lg ${style} hover:cursor-pointer hover:scale-105 w-sm `}
           >
             {/* <img src={src} 
                             alt=""

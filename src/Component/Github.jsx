@@ -7,11 +7,16 @@ function Github() {
     <>
       <div className="bg-gradient-to-b from-black to-gray-800 w-full md:h-full text-white grid justify-items-center">
         {/* <h2 className="text-4xl inline text-start">Github </h2> */}
-        <img src={github1} alt="dummy_img" width={"70%"} />
+        <img
+          src={github1}
+          alt="dummy_img"
+          className="w-[100%] sm:w-[80%] p-10"
+        />
         <img
           src={github2}
           alt="dummy_img_github"
-          width={"40%"}
+          // width={"40%"}
+          className="w-[60%] sm:w-[70%] p-10"
           style={{ padding: "3rem" }}
         />
       </div>

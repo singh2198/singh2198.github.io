@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { Link } from "react-scroll";
 // import { BsTwitter } from "react-icons/bs";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -102,7 +103,7 @@ const Contact = () => {
               >
                 <a
                   href={href}
-                  className="flex justify-between items-center w-full text-white"
+                  className="flex justify-between items-center w-full text-white hover:scale-95 hover:cursor-pointer "
                   download={download}
                   target="_blank"
                   rel="noreferrer"
@@ -111,6 +112,11 @@ const Contact = () => {
                 </a>
               </li>
             ))}
+            <button className="bg-gradient-to-r from-cyan-300 to-cyan-400 w-10 h-9 rounded-md hover:cursor-pointer hover:scale-95 mt-2  ">
+              <Link to="home" smooth duration={500}>
+                Up
+              </Link>
+            </button>
           </ul>
         </div>
       </div>

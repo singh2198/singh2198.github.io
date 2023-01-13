@@ -1,12 +1,16 @@
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+// import resume from "../assets/Akash-Singh-Resume.pdf";
+// import resume from "";
 // import Home from './Home';
 import { Link } from "react-scroll";
 
 const Nav = () => {
   const [navbar, setbar] = useState(false);
-  // console.log(navbar)
+  // const resume = () => {};
+  // console.log(resume);
+  // console.log(navbar);
 
   const Linkk = [
     { id: 1, link: "home" },
@@ -14,7 +18,8 @@ const Nav = () => {
     { id: 3, link: "Project" },
     { id: 4, link: "Skills" },
     { id: 5, link: "Contact" },
-    { id: 6, link: "Resume" },
+    // { id: 6, link: "Resume" },
+    // { },
   ];
 
   return (
@@ -29,11 +34,15 @@ const Nav = () => {
             return (
               <p
                 key={id}
-                className=" px-2 capitalize hover:scale-105 duration-100 cursor-pointer text-gray-500 font-medium"
+                className=" px-2 capitalize hover:scale-105 duration-100 cursor-pointer text-gray-500 font-medium hover:text-xl"
               >
                 <Link
                   // onClick={() => setbar(!navbar)}
                   to={link}
+                  // href={"Akash-Singh-Resume.pdf"}
+                  // download={true}
+                  target="_blank"
+                  rel="noreferrer"
                   smooth
                   duration={500}
                 >
@@ -42,6 +51,16 @@ const Nav = () => {
               </p>
             );
           })}
+
+          <a
+            className="hover:scale-105 duration-100 cursor-pointer text-gray-500 font-medium hover:text-xl"
+            href="Akash-Singh-Resume.pdf"
+            download={true}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </div>
 
         <div
@@ -61,7 +80,7 @@ const Nav = () => {
               return (
                 <p
                   key={id}
-                  className="px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize"
+                  className="px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize hover:scale-95"
                 >
                   <Link
                     onClick={() => setbar(!navbar)}
@@ -74,6 +93,15 @@ const Nav = () => {
                 </p>
               );
             })}
+            <a
+              className="px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize hover:scale-95"
+              href="Akash-Singh-Resume.pdf"
+              download={true}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </ul>
         )}
       </div>

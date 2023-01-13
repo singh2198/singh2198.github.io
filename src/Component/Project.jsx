@@ -14,40 +14,42 @@ const Project = () => {
     {
       id: 1,
       src: algorithm_visulizer,
-      title: "algorithum",
+      title: " Algorithum Visulizer",
       github: "https://github.com/singh2198/Algorithm_visualizer",
       nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
-      discreption: "It Visulize the all sorting algo on display .",
-      techstack: "Reactjs js HTML CSS",
+      discreption:
+        "It Visulize the Four sorting algorithm on display ,How it work in backgrond .",
+      techstack: "Reactjs ,js ,HTML ,CSS ,Four Algorithum",
     },
     {
       id: 2,
       src: monday,
-      title: "monday",
+      title: "Monday  ",
       github:
         "https://github.com/singh2198/prompt-toothbrush-9795/tree/day-2/monday",
       nitlify: "https://phenomenal-druid-f85e5a.netlify.app/",
-      discreption: "It Visulize the all sorting algo on display .",
-      techstack: "Reactjs,js,HTML,CSS",
+      discreption:
+        "Monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
+      techstack: "Reactjs ,js ,HTML ,CSS ,Localhost",
     },
-    {
-      id: 3,
-      src: navbar,
-      title: "algorithum",
-      github: "",
-      nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
-      discreption: "It Visulize the all sorting algo on display .",
-      techstack: "Reactjs | js | HTML |CSS",
-    },
-    {
-      id: 4,
-      src: navbar,
-      title: "algorithum",
-      github: "",
-      nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
-      discreption: "It Visulize the all sorting algo on display .",
-      techstack: "Reactjs | js | HTML |CSS",
-    },
+    // {
+    //   id: 3,
+    //   src: navbar,
+    //   title: "algorithum",
+    //   github: "",
+    //   nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
+    //   discreption: "It Visulize the all sorting algo on display .",
+    //   techstack: "Reactjs | js | HTML |CSS",
+    // },
+    // {
+    //   id: 4,
+    //   src: navbar,
+    //   title: "algorithum",
+    //   github: "",
+    //   nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
+    //   discreption: "It Visulize the all sorting algo on display .",
+    //   techstack: "Reactjs | js | HTML |CSS",
+    // },
     // {
     //   id: 5,
     //   src: navbar,
@@ -84,7 +86,7 @@ const Project = () => {
 
       {/* corosel..... */}
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0  md:mx-20">
+      <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-15 mx-7 sm:px-0  md:mx-20">
         {projects.map(
           ({ id, src, github, nitlify, discreption, techstack, title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
@@ -97,24 +99,34 @@ const Project = () => {
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a href={github} target="_blank" rel="noreferrer">
-                    Code
+                    <button className="  bg-gradient-to-r from-cyan-500 to-blue-500 w-20 rounded-md ">
+                      <p>Code</p>
+                    </button>
                   </a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a href={nitlify} target="_blank" rel="noreferrer">
-                    Demo
+                    <button className="bg-gradient-to-r from-cyan-500 to-blue-500 w-20 rounded-md ">
+                      <p>Demo</p>
+                    </button>
                   </a>
                 </button>
               </div>
 
-              <div className="grid justify-items-center">
-                <h1>#{title}</h1>
+              <div className="">
+                <div className="flex justify-center">
+                  <h1 className="text-xl text-center bg-gradient-to-r from-cyan-500 to-blue-500  w-1/2 font-light  rounded-md">
+                    {title}
+                  </h1>
+                </div>
                 <div className=" m-4">
-                  <p>{discreption}</p>
+                  <p className="text-gray-500  text-md hover:text-xl hover:cursor-pointer hover:text-cyan-400 hover:duration-700 hover:scale-95">
+                    {discreption}
+                  </p>
                 </div>
 
-                <div className="m-4">
-                  <p>{techstack}</p>
+                <div className="m-4 text-gray-500 text-sm text-center hover:cursor-pointer hover:duration-1000 hover:text-xl hover:text-cyan-400 font-thin hover:scale-95">
+                  <p>Tech Stack:-{techstack}</p>
                 </div>
               </div>
             </div>
