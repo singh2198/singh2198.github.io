@@ -1,7 +1,9 @@
 import React from "react";
 import algorithm_visulizer from "../assets/portfolio/algorithm_visulizer.jpg";
 import monday from "../assets/portfolio/monday.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+// import navbar from "../assets/portfolio/navbar.jpg";
+import zee from "../assets/portfolio/zeemovieapp.png";
+import youtube from "../assets/portfolio/ytapp.png";
 import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
 // import Corosal from "./corosal";
 // import { title } from "process";
@@ -32,24 +34,27 @@ const Project = () => {
         "Monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
       techstack: "Reactjs ,js ,HTML ,CSS ,Localhost",
     },
-    // {
-    //   id: 3,
-    //   src: navbar,
-    //   title: "algorithum",
-    //   github: "",
-    //   nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
-    //   discreption: "It Visulize the all sorting algo on display .",
-    //   techstack: "Reactjs | js | HTML |CSS",
-    // },
-    // {
-    //   id: 4,
-    //   src: navbar,
-    //   title: "algorithum",
-    //   github: "",
-    //   nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
-    //   discreption: "It Visulize the all sorting algo on display .",
-    //   techstack: "Reactjs | js | HTML |CSS",
-    // },
+    {
+      id: 3,
+      src: zee,
+      title: "Zee App ",
+      github:
+        "https://github.com/singh2198/-screeching-idea-7572/tree/main/zee5",
+      nitlify: "https://phenomenal-swan-bbd334.netlify.app/",
+      discreption:
+        "Online Movie App ,Clone of Zee movie app every time you refresh the page image is change .",
+      techstack: "Reactjs | js | HTML |CSS | external auth for authentication",
+    },
+    {
+      id: 4,
+      src: youtube,
+      title: "Youtbe App",
+      github: "https://github.com/singh2198/YT-app/tree/master/YT%20app",
+      nitlify: "https://yt-app-sigma.vercel.app/",
+      discreption:
+        "Simple Youtube App with Search and video Playing functionality",
+      techstack: " js | HTML |CSS",
+    },
     // {
     //   id: 5,
     //   src: navbar,
@@ -86,7 +91,7 @@ const Project = () => {
 
       {/* corosel..... */}
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-15 mx-7 sm:px-0  md:mx-20">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10 px-15 mx-7 sm:px-0 w-[80%] md:mx-20">
         {projects.map(
           ({ id, src, github, nitlify, discreption, techstack, title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
@@ -115,7 +120,7 @@ const Project = () => {
 
               <div className="">
                 <div className="flex justify-center">
-                  <h1 className="text-xl text-center bg-gradient-to-r from-cyan-500 to-blue-500  w-1/2 font-light  rounded-md">
+                  <h1 className="text-xl text-center bg-gradient-to-r from-cyan-500 to-blue-500  w-[66%]  font-light   rounded-md">
                     {title}
                   </h1>
                 </div>

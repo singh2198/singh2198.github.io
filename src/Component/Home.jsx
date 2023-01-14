@@ -1,5 +1,6 @@
 import React from "react";
-import akashimg from "../assets/img_port1.jpg";
+import akashimg from "../assets/akash-pic.jpg";
+
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 // import { Link } from "react-scroll";
 import { Link } from "react-scroll";
@@ -16,7 +17,7 @@ const Home = () => {
             I'm a Full Stack Developer
           </h1>
           <p className="text-gray-400 py-3 sm:py-3 max-w-md">
-            Hy i am Full Stack Web Developer i complete my Btech in (IT) , i
+            Hy i am Full Stack Web Developer i complete my B.tech in (IT) , i
             have hand on practice on React.js in frondend and node.js in backend
             .I love to work on web application using technologies like React,
             Tailwind ,Typescript. Currently looking for a job opportunity in a
