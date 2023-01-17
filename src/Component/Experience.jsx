@@ -64,11 +64,11 @@ const Experiance = () => {
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b from-black to-gray-800 w-full md:h-auto text-white "
+      className="bg-gradient-to-b from-black to-gray-800 sm:w-full w-[127%] md:h-auto text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-10">
-          <p className="text-4xl font-bold ">Experiance</p>
+          <p className="text-4xl font-bold ">Skills</p>
           {/* <p className='py-6'></p> */}
         </div>
       </div>

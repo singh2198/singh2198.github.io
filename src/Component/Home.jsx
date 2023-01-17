@@ -9,14 +9,14 @@ const Home = () => {
   return (
     <div
       name="home"
-      className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-700"
+      className=" h-screen sm:max-w-full w-[127%] bg-gradient-to-b from-black via-black to-gray-700"
     >
-      <div className="     mx-auto max-w-5xl grid grid-flow-row items-center justify-cente  h-full px-4  md:grid-flow-col">
-        <div className="flex flex-col justify-center max-h-max mt-20 lg:mt-0">
+      <div className="  mx-auto max-w-6xl grid grid-flow-row items-center justify-cente  h-full px-4  lg:grid-flow-col">
+        <div className="flex flex-col justify-center max-h-max mt-20 md:mt-20 md:m-10 ">
           <h1 className="text-4xl sm:text-7xl font-bold text-white ">
             I'm a Full Stack Developer
           </h1>
-          <p className="text-gray-400 py-3 sm:py-3 max-w-md">
+          <p className="text-gray-400 py-3 sm:py-3 max-w-2xl">
             Hy i am Full Stack Web Developer i complete my B.tech in (IT) , i
             have hand on practice on React.js in frondend and node.js in backend
             .I love to work on web application using technologies like React,
@@ -40,11 +40,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=" h-3/4 sm:h-1/2 ">
+        <div className=" h-3/4 sm:h-[50%] md:top-10 ">
           <img
             src={akashimg}
             alt="img"
-            className="rounded-full mx-auto w-lg h-56  hover:cursor-pointer"
+            className="rounded-full mx-auto w-lg h-48 md:h-[100%]  hover:cursor-pointer"
           />
         </div>
       </div>

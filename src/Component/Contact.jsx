@@ -49,14 +49,14 @@ const Contact = () => {
   return (
     <div
       name="Contact"
-      className="w-full h-auto bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="sm:w-full w-[127%] h-auto bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full mt-10">
         <div className="pb-8">
           <p className="text-4xl font-bold ">Contact</p>
-          <p className="py-6 text-center font-bold text-xl">
+          {/* <p className="py-6 text-center font-bold text-xl">
             Don't we Shy Contact me :
-          </p>
+          </p> */}
         </div>
 
         <div className=" flex justify-center items-center">
@@ -87,6 +87,7 @@ const Contact = () => {
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
+            <h2 className="text-center">Contact :8755741512</h2>
           </form>
         </div>
 

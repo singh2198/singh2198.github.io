@@ -50,7 +50,7 @@ const Project = () => {
       src: youtube,
       title: "Youtbe App",
       github: "https://github.com/singh2198/YT-app/tree/master/YT%20app",
-      nitlify: "https://yt-app-sigma.vercel.app/",
+      nitlify: "https://ubiquitous-swan-7471bb.netlify.app/",
       discreption:
         "Simple Youtube App with Search and video Playing functionality",
       techstack: " js | HTML |CSS",
@@ -78,11 +78,11 @@ const Project = () => {
   return (
     <div
       name="Project"
-      className="bg-gradient-to-b from-gray-800 to-gray-900 w-full md:h-full text-white "
+      className="bg-gradient-to-b from-gray-800 to-gray-900 sm:w-full w-[127%] md:h-full text-white "
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold    ">Project</p>
+          <p className="text-4xl font-bold">Project</p>
           {/* <p className='py-6'>Check out some of my work right here</p> */}
         </div>
       </div>
@@ -91,10 +91,13 @@ const Project = () => {
 
       {/* corosel..... */}
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10 px-15 mx-7 sm:px-0 w-[80%] md:mx-20">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 px-15 mx-8 sm:px-0 w-[88%] md:mx-20">
         {projects.map(
           ({ id, src, github, nitlify, discreption, techstack, title }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg w-[98%] sm:w-[100%] "
+            >
               <img
                 src={src}
                 alt=""

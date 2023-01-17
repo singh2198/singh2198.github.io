@@ -24,7 +24,7 @@ const Nav = () => {
 
   return (
     <div>
-      <div className="flex justify-between items-center w-full h-10 px-4  text-white bg-black fixed">
+      <div className="flex justify-between items-center w-full h-20 px-4  text-white bg-black fixed">
         <div>
           {/* <p className='text-3xl text-white hover:cursor-pointer font-signature mx-2 mt-4'>Akash </p> */}
         </div>
@@ -34,7 +34,7 @@ const Nav = () => {
             return (
               <p
                 key={id}
-                className=" px-2 capitalize hover:scale-105 duration-100 cursor-pointer text-gray-500 font-medium hover:text-xl"
+                className=" px-3 capitalize  duration-100 cursor-pointer text-gray-500 font-medium   text-xl"
               >
                 <Link
                   // onClick={() => setbar(!navbar)}
@@ -53,7 +53,7 @@ const Nav = () => {
           })}
 
           <a
-            className="hover:scale-105 duration-100 cursor-pointer text-gray-500 font-medium hover:text-xl"
+            className=" duration-100 cursor-pointer text-gray-500 font-medium text-xl"
             href="Akash-Singh-Resume.pdf"
             download={true}
             target="_blank"

@@ -5,7 +5,7 @@ import github2 from "../assets/github2.png";
 function Github() {
   return (
     <>
-      <div className="bg-gradient-to-b from-gray-800 to-black w-full md:h-full text-white grid justify-items-center">
+      <div className="bg-gradient-to-b from-gray-800 to-black sm:w-full w-[127%] md:h-full text-white grid justify-items-center">
         {/* <h2 className="text-4xl inline text-start">Github </h2> */}
         <img
           src={github1}
