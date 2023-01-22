@@ -12,6 +12,13 @@ const Nav = () => {
   // console.log(resume);
   // console.log(navbar);
 
+  const handleresume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1IjOTS4_dS3rXx9T80Ppr4-NG_Vh2lmRV/view?usp=sharing",
+      "_blank"
+    );
+  };
+
   const Linkk = [
     { id: 1, link: "home" },
     { id: 2, link: "About Me" },
@@ -58,6 +65,7 @@ const Nav = () => {
             download={true}
             target="_blank"
             rel="noreferrer"
+            onClick={handleresume}
           >
             Resume
           </a>
