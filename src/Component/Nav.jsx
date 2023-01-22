@@ -107,6 +107,7 @@ const Nav = () => {
               download={true}
               target="_blank"
               rel="noreferrer"
+              onClick={handleresumebutton}
             >
               Resume
             </a>
