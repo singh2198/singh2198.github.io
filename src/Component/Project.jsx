@@ -4,7 +4,8 @@ import monday from "../assets/portfolio/monday.jpg";
 // import navbar from "../assets/portfolio/navbar.jpg";
 import zee from "../assets/portfolio/zeemovieapp.png";
 import youtube from "../assets/portfolio/ytapp.png";
-import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
+import homedocar from "../assets/home-docar.png";
+// import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
 // import Corosal from "./corosal";
 // import { title } from "process";
 // import { Link } from "react-router-dom";
@@ -55,15 +56,16 @@ const Project = () => {
         "Simple Youtube App with Search and video Playing functionality",
       techstack: " js | HTML |CSS",
     },
-    // {
-    //   id: 5,
-    //   src: navbar,
-    //   title: "algorithum",
-    //   github: "",
-    //   nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
-    //   discreption: "It Visulize the all sorting algo on display .",
-    //   techstack: "Reactjs | js | HTML |CSS",
-    // },
+    {
+      id: 5,
+      src: homedocar,
+      title: "E-commerce ",
+      github: "https://github.com/snehilagrahari/Home-Decor",
+      nitlify: "https://home-decor-omega.vercel.app/",
+      discreption:
+        "Home Decor is an E-commerce website providing products ranging from daily groceries to flashy accessories.",
+      techstack: "Reactjs | js | HTML | Chakra UI | Redux",
+    },
     // {
     //   id: 6,
     //   src: navbar,
