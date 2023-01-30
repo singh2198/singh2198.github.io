@@ -48,6 +48,7 @@ const Contact = () => {
 
   return (
     <div
+      id="contact"
       name="Contact"
       className="sm:w-full w-[127%] h-auto bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >

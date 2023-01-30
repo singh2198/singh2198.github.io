@@ -5,12 +5,6 @@ import monday from "../assets/portfolio/monday.jpg";
 import zee from "../assets/portfolio/zeemovieapp.png";
 import youtube from "../assets/portfolio/ytapp.png";
 import homedocar from "../assets/home-docar.png";
-// import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
-// import Corosal from "./corosal";
-// import { title } from "process";
-// import { Link } from "react-router-dom";
-// import { Link, Navigate } from "react-router-dom";
-// import { Link as ReachLink } from "@reach/router"
 
 const Project = () => {
   const projects = [
@@ -79,6 +73,7 @@ const Project = () => {
 
   return (
     <div
+      id="projects"
       name="Project"
       className="bg-gradient-to-b from-gray-800 to-gray-900 sm:w-full w-[127%] md:h-full text-white "
     >
@@ -143,53 +138,6 @@ const Project = () => {
           )
         )}
       </div>
-
-      {/* <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0  md:mx-20 '>
-                {projects.map(({id,src,github,nitlify})=>(
-
-                    <>
-                    <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                         <img src={src} 
-                            alt=""
-                          className='rounded-md duration-200 hover:scale-105'/> */}
-
-      {/* button */}
-
-      {/* <div className='flex items-center justify-center'>
-                            <button
-                            
-                            className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                            <a href={github} target="_blank" rel='noreferrer'>Code</a>
-                            </button>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                            <a href={nitlify} target="_blank" rel='noreferrer'>Demo</a>
-                            </button>
-                        </div>
-
-                    </div> */}
-
-      {/* content...of project */}
-      {/* <div style={{border:"1px solid red",width:"auto"}}>
-                        <div>
-                            <h1>Project</h1>
-                            <p>Project Description....</p>
-                        </div>
-
-                        <div>
-                            <ol>
-                                <h3>Tech Stack</h3>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                                <li>4</li>
-                            </ol>
-                        </div>
-                    </div>
-                    </> */}
-
-      {/* ))}  
-
-            </div>  */}
     </div>
   );
 };

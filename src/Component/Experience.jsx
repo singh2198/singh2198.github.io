@@ -63,6 +63,7 @@ const Experiance = () => {
 
   return (
     <div
+      id="skills"
       name="Skills"
       className="bg-gradient-to-b from-black to-gray-800 sm:w-full w-[127%] md:h-auto text-white "
     >

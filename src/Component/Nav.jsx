@@ -30,7 +30,7 @@ const Nav = () => {
   ];
 
   return (
-    <div>
+    <div id="nav-menu">
       <div className="flex justify-between items-center w-full h-20 px-4  text-white bg-black fixed">
         <div>
           {/* <p className='text-3xl text-white hover:cursor-pointer font-signature mx-2 mt-4'>Akash </p> */}

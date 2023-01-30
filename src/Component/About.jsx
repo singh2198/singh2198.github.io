@@ -3,6 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div
+      id="about"
+      class="about section"
       name="About Me"
       className="sm:w-full w-[127%] bg-gradient-to-b from-gray-700 to-gray-800 text-white"
     >
