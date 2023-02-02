@@ -17,6 +17,12 @@ const Project = () => {
       discreption:
         "It Visulize the Four sorting algorithm on display ,How it work in backgrond .",
       techstack: "Reactjs ,js ,HTML ,CSS ,Four Algorithum",
+      clt: "project-title",
+      cld: "project-description",
+      cltech: "project-tech-stack",
+      clgit: "project-github-link",
+      cldep: "project-deployed-link",
+      clp: "project-card",
     },
     {
       id: 2,
@@ -28,6 +34,12 @@ const Project = () => {
       discreption:
         "Monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
       techstack: "Reactjs ,js ,HTML ,CSS ,Localhost",
+      clt: "project-title",
+      cld: "project-description",
+      cltech: "project-tech-stack",
+      clgit: "project-github-link",
+      cldep: "project-deployed-link",
+      clp: "project-card",
     },
     {
       id: 3,
@@ -39,6 +51,12 @@ const Project = () => {
       discreption:
         "Online Movie App ,Clone of Zee movie app every time you refresh the page image is change .",
       techstack: "Reactjs | js | HTML |CSS | external auth for authentication",
+      clt: "project-title",
+      cld: "project-description",
+      cltech: "project-tech-stack",
+      clgit: "project-github-link",
+      cldep: "project-deployed-link",
+      clp: "project-card",
     },
     {
       id: 4,
@@ -49,6 +67,12 @@ const Project = () => {
       discreption:
         "Simple Youtube App with Search and video Playing functionality",
       techstack: " js | HTML |CSS",
+      clt: "project-title",
+      cld: "project-description",
+      cltech: "project-tech-stack",
+      clgit: "project-github-link",
+      cldep: "project-deployed-link",
+      clp: "project-card",
     },
     {
       id: 5,
@@ -59,6 +83,12 @@ const Project = () => {
       discreption:
         "Home Decor is an E-commerce website providing products ranging from daily groceries to flashy accessories.",
       techstack: "Reactjs | js | HTML | Chakra UI | Redux",
+      clt: "project-title",
+      cld: "project-description",
+      cltech: "project-tech-stack",
+      clgit: "project-github-link",
+      cldep: "project-deployed-link",
+      clp: "project-card",
     },
     // {
     //   id: 6,
@@ -90,8 +120,23 @@ const Project = () => {
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 px-15 mx-8 sm:px-0 w-[88%] md:mx-20">
         {projects.map(
-          ({ id, src, github, nitlify, discreption, techstack, title }) => (
+          ({
+            id,
+            src,
+            github,
+            nitlify,
+            discreption,
+            techstack,
+            title,
+            cld,
+            cldep,
+            clgit,
+            clp,
+            clt,
+            cltech,
+          }) => (
             <div
+              class={clp}
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg w-[98%] sm:w-[100%] "
             >
@@ -103,14 +148,24 @@ const Project = () => {
 
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={github} target="_blank" rel="noreferrer">
+                  <a
+                    href={github}
+                    class={clgit}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="  bg-gradient-to-r from-cyan-500 to-blue-500 w-20 rounded-md ">
                       <p>Code</p>
                     </button>
                   </a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={nitlify} target="_blank" rel="noreferrer">
+                  <a
+                    href={nitlify}
+                    target="_blank"
+                    rel="noreferrer"
+                    class={cldep}
+                  >
                     <button className="bg-gradient-to-r from-cyan-500 to-blue-500 w-20 rounded-md ">
                       <p>Demo</p>
                     </button>
@@ -120,18 +175,24 @@ const Project = () => {
 
               <div className="">
                 <div className="flex justify-center">
-                  <h1 className="text-xl text-center bg-gradient-to-r from-cyan-500 to-blue-500  w-[66%]  font-light   rounded-md">
+                  <h1
+                    class={clt}
+                    className="text-xl text-center bg-gradient-to-r from-cyan-500 to-blue-500  w-[66%]  font-light   rounded-md"
+                  >
                     {title}
                   </h1>
                 </div>
                 <div className=" m-4">
-                  <p className="text-gray-500  text-md hover:text-xl hover:cursor-pointer hover:text-cyan-400 hover:duration-700 hover:scale-95">
+                  <p
+                    class={cld}
+                    className="text-gray-500  text-md hover:text-xl hover:cursor-pointer hover:text-cyan-400 hover:duration-700 hover:scale-95"
+                  >
                     {discreption}
                   </p>
                 </div>
 
                 <div className="m-4 text-gray-500 text-sm text-center hover:cursor-pointer hover:duration-1000 hover:text-xl hover:text-cyan-400 font-thin hover:scale-95">
-                  <p>Tech Stack:-{techstack}</p>
+                  <p class={cltech}>Tech Stack:-{techstack}</p>
                 </div>
               </div>
             </div>

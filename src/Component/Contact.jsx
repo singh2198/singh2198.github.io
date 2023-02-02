@@ -9,6 +9,7 @@ const Contact = () => {
   const links = [
     {
       id: 1,
+      idd:"contact-linkedin",
       child: (
         <>
           <FaLinkedin size={30} />
@@ -19,6 +20,7 @@ const Contact = () => {
     },
     {
       id: 2,
+      idd:"contact-github",
       child: (
         <>
           <FaGithub size={30} />
@@ -28,6 +30,7 @@ const Contact = () => {
     },
     {
       id: 3,
+      idd:"contact-email",
       child: (
         <>
           <HiOutlineMail size={30} />
@@ -88,7 +91,7 @@ const Contact = () => {
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
-            <h2 className="text-center">Contact :8755741512</h2>
+            <h2 id="contact-phone" className="text-center">Contact :8755741512</h2>
           </form>
         </div>
 
@@ -96,8 +99,9 @@ const Contact = () => {
           {/* <h3 className="text-1xl">Contact Number :8755741512</h3> */}
 
           <ul className="flex flex-row justify-center">
-            {links.map(({ id, child, href, style, download }) => (
+            {links.map(({ id, child, href, style, download ,idd}) => (
               <li
+                id={idd}
                 key={id}
                 className={
                   "flex  items-center w-30 h-14 px-3  hover:rounded-md duration-300 "
