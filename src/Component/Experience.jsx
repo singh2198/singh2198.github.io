@@ -16,48 +16,64 @@ const Experiance = () => {
       src: css,
       title: "CSS",
       style: "shadow-blue-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
     },
     {
       id: 2,
       src: html,
       title: "html",
       style: "shadow-orange-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
     },
     {
       id: 3,
       src: javascript,
       title: "javascript",
       style: "shadow-yellow-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
     },
     {
       id: 4,
       src: reactImage,
       title: "React",
       style: "shadow-blue-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
     },
     {
       id: 5,
       src: github,
       title: "Github",
       style: "shadow-red-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
     },
     {
       id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-blue-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
     },
     {
       id: 7,
       src: nextjs,
       title: "Nextjs",
       style: "shadow-orange-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
     },
     {
       id: 8,
       src: nodejs,
       title: "nodejs",
       style: "shadow-green-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
     },
   ];
 
@@ -75,8 +91,9 @@ const Experiance = () => {
       </div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-20 px-15 mx-10 grid-cols-2 sm:px-0  md:mx-20 mt-5 ">
-        {projects.map(({ id, src, style, title }) => (
+        {projects.map(({ id, src, style, title,climg,clname }) => (
           <div
+            class="skills-card"
             key={id}
             className={`shadow-lg  rounded-lg ${style} hover:cursor-pointer hover:scale-105 w-sm `}
           >
@@ -84,8 +101,8 @@ const Experiance = () => {
                             alt=""
                           className={`rounded-md duration-200 hover:scale-105 ${style}`}/> */}
 
-            <img src={src} alt="" className="w-20 mx-auto" />
-            <p className="mt-4 text-center ">{title}</p>
+            <img  class={climg}  src={src} alt="" className="w-20 mx-auto" />
+            <p class={clname} className="mt-4 text-center ">{title}</p>
 
             {/* <div className='flex items-center justify-center'>
                             <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
