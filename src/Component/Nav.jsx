@@ -66,7 +66,7 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
             onClick={handleresumebutton}
-            id="resume-link-1"
+            id="resume-link-2"
           >
             Resume
           </a>
@@ -109,6 +109,7 @@ const Nav = () => {
               target="_blank"
               rel="noreferrer"
               onClick={handleresumebutton}
+              id="resume-link-2"
             >
               Resume
             </a>
