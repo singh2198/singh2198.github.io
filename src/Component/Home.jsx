@@ -14,15 +14,15 @@ const Home = () => {
     >
       <div className="  mx-auto max-w-6xl grid grid-flow-row items-center justify-cente  h-full px-4  lg:grid-flow-col">
         <div className="flex flex-col justify-center max-h-max mt-20 md:mt-20 md:m-10 ">
-          <h1 className="text-4xl sm:text-7xl font-bold text-white ">
+          <h1 className="text-4xl sm:text-7xl font-bold text-white " >
             I'm a Full Stack Developer
           </h1>
           <p  id="user-detail-intro"  className="text-gray-400 py-3 sm:py-3 max-w-2xl">
-            Hy i am <p id="user-detail-name" >Akash Singh </p> Full Stack Web Developer i complete my B.tech in (IT) , i
-            have hand on practice on React.js in frondend and node.js in backend
-            .I love to work on web application using technologies like React,
-            Tailwind ,Typescript. Currently looking for a job opportunity in a
-            technology-driven organization.
+            Hy i am <span id="user-detail-name">Akash Singh </span>Full Stack Web Developer .Completed my Graduation in DEC/2021 B.tech(IT), i
+            have hand on practice on React.js in frondend and node.js in backend and 500++ dsa question solving experiance
+            .I work on amazing project with trending tech stack just like React,
+            Redux ,Typescript etc. Currently looking for a job opportunity in a
+            technology-driven organization so that i can show case my ability , plus contribute my positive energy to your origination .
           </p>
 
           {/*  Porfolio  Buttton  */}
@@ -41,9 +41,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=" h-3/4 sm:h-[50%] md:top-10 ">
+        <div  class="home-img" className=" h-3/4 sm:h-[50%] md:top-10 ">
           <img
-            class="home-img"
             src={akashimg}
             alt="img"
             className="rounded-full mx-auto w-lg h-48 md:h-[100%]  hover:cursor-pointer"

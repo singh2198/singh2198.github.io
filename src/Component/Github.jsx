@@ -8,6 +8,7 @@ function Github() {
       <div className="bg-gradient-to-b from-gray-800 to-black sm:w-full w-[127%] md:h-full text-white grid justify-items-center">
         {/* <h2 className="text-4xl inline text-start">Github </h2> */}
         <img
+          class="react-activity-calendar"
           src={github1}
           alt="dummy_img"
           className="w-[100%] sm:w-[80%] p-10"
