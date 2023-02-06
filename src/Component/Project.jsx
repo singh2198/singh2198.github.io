@@ -22,7 +22,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: "project-card",
+      clp: ".project-card",
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: "project-card",
+      clp: ".project-card",
     },
     {
       id: 3,
@@ -56,7 +56,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: "project-card",
+      clp: ".project-card",
     },
     {
       id: 4,
@@ -72,7 +72,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: "project-card",
+      clp: ".project-card",
     },
     {
       id: 5,
@@ -88,7 +88,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: "project-card",
+      clp: ".project-card",
     },
     // {
     //   id: 6,

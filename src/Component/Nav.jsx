@@ -21,7 +21,7 @@ const Nav = () => {
 
   const Linkk = [
     { id: 1, link: "home", cl: ".nav-link.home" },
-    { id: 2, link: "About Me", cl: ".nav-link.about" },
+    { id: 2, link: "About", cl: ".nav-link.about" },
     { id: 3, link: "Project", cl: ".nav-link.projects" },
     { id: 4, link: "Skills", cl: ".nav-link.skills" },
     { id: 5, link: "Contact", cl: ".nav-link.contact" },

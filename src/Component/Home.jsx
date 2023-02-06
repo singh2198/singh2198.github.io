@@ -41,7 +41,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div  class="home-img" className=" h-3/4 sm:h-[50%] md:top-10 ">
+        <div  class=".home-img" className=" h-3/4 sm:h-[50%] md:top-10 ">
           <img
             src={akashimg}
             alt="img"
