@@ -39,13 +39,13 @@ const Nav = () => {
             return (
               <p
                 key={id}
-                // class={cl}
+                class={cl}
                 className=" px-3 capitalize  duration-100 cursor-pointer text-gray-500 font-medium   text-xl"
               >
                 <Link
                   // onClick={() => setbar(!navbar)}
                   to={link}
-                  class={cl}
+                  // class={cl}
                   // href={"Akash-Singh-Resume.pdf"}
                   // download={true}
                   target="_blank"
