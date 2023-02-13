@@ -97,21 +97,10 @@ const Experiance = () => {
             key={id}
             className={`shadow-lg  rounded-lg ${style} hover:cursor-pointer hover:scale-105 w-sm `}
           >
-            {/* <img src={src} 
-                            alt=""
-                          className={`rounded-md duration-200 hover:scale-105 ${style}`}/> */}
 
-            <img  class={climg}  src={src} alt="" className="w-20 mx-auto" />
-            <p class={clname} className="mt-4 text-center ">{title}</p>
+            <img  class={climg}  src={src} alt="dummy_img"   style={{width:"80px",marginLeft:"auto",marginRight:"auto"}} />
+            <p class={clname}   style={{marginTop:"16px",textAlign:"center"}}>{title}</p>
 
-            {/* <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                                Demo
-                            </button>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                                Code
-                            </button>
-                        </div> */}
           </div>
         ))}
       </div>
