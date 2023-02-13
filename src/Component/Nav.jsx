@@ -22,8 +22,8 @@ const Nav = () => {
   const Linkk = [
     { id: 1, link: "home", cl: ".nav-link.home" },
     { id: 2, link: "About", cl: ".nav-link.about" },
-    { id: 3, link: "Project", cl: ".nav-link.projects" },
     { id: 4, link: "Skills", cl: ".nav-link.skills" },
+    { id: 3, link: "Project", cl: ".nav-link.projects" },
     { id: 5, link: "Contact", cl: ".nav-link.contact" },
   ];
 
@@ -66,7 +66,7 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
             onClick={handleresumebutton}
-            id="resume-link-2"
+            class=".nav-link.resume"
           >
             Resume
           </a>
@@ -85,7 +85,7 @@ const Nav = () => {
 
         {navbar && (
           <ul className="flex  flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-gray-400  bg-gradient-to-b from-black to-gray-800 ">
-            {Linkk.map(({ id, link }) => {
+            {Linkk.map(({ id, link ,cl}) => {
               return (
                 <p
                   key={id}
@@ -96,6 +96,7 @@ const Nav = () => {
                     to={link}
                     smooth
                     duration={500}
+                    class={cl}
                   >
                     {link}
                   </Link>
@@ -109,17 +110,13 @@ const Nav = () => {
               target="_blank"
               rel="noreferrer"
               onClick={handleresumebutton}
-              id="resume-link-2"
+              class=".nav-link.resume"
             >
               Resume
             </a>
           </ul>
         )}
       </div>
-
-      {/* <FaBars></FaBars> */}
-      {/* <p className='font-semibold'>Helo</p> */}
-      {/* <Home/> */}
     </div>
   );
 };
