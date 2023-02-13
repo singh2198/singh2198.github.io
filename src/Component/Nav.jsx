@@ -39,7 +39,7 @@ const Nav = () => {
             return (
               <p
                 key={id}
-                class={cl}
+                id={cl}
                 className=" px-3 capitalize  duration-100 cursor-pointer text-gray-500 font-medium   text-xl"
               >
                 <Link
@@ -66,7 +66,7 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
             onClick={handleresumebutton}
-            class=".nav-link.resume"
+            id=".nav-link.resume"
           >
             Resume
           </a>
@@ -96,7 +96,7 @@ const Nav = () => {
                     to={link}
                     smooth
                     duration={500}
-                    class={cl}
+                    id={cl}
                   >
                     {link}
                   </Link>
@@ -110,7 +110,7 @@ const Nav = () => {
               target="_blank"
               rel="noreferrer"
               onClick={handleresumebutton}
-              class=".nav-link.resume"
+              id=".nav-link.resume"
             >
               Resume
             </a>
