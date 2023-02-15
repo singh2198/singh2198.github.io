@@ -39,12 +39,13 @@ const Nav = () => {
             return (
               <p
                 key={id}
-                id={cl}
+                // id={cl}
                 className=" px-3 capitalize  duration-100 cursor-pointer text-gray-500 font-medium   text-xl"
               >
                 <Link
                   // onClick={() => setbar(!navbar)}
                   to={link}
+                  class={cl}
                   // class={cl}
                   // href={"Akash-Singh-Resume.pdf"}
                   // download={true}
@@ -89,7 +90,8 @@ const Nav = () => {
             {Linkk.map(({ id, link ,cl}) => {
               return (
                 <p
-                  key={id}
+                  class={id}
+                  // style={{paddingLeft:"1.5rem",paddingRight:"1.5rem",cursor:"pointer",paddingTop:"1.5rem",paddingBottom:"1.5rem",textTransform:"capitalize"}}
                   className="px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize hover:scale-95"
                 >
                   <Link

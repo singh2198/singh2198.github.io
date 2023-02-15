@@ -14,23 +14,25 @@ function Github() {
           class="react-activity-calendar"
           src={github1}
           alt="dummy_img"
+        
           className="w-[100%] sm:w-[80%] p-10"
         />
         <img
-          src={githubstats}
-          alt="dummy_img_github"
-          id="github-streak-stats"
-          // width={"40%"}
-          className="w-[60%] sm:w-[50%] p-10"
-          style={{ padding: "3rem" }}
-        />
-        <img
-          src={"https://github-readme-streak-stats.herokuapp.com/?user=singh2198"}
+          src={"https://github-readme-stats.vercel.app/api?username=singh2198"}
           alt="dummy_img_github"
           id="github-stats-card"
           // width={"40%"}
           className="w-[60%] sm:w-[50%] p-10"
-          style={{ padding: "3rem" }}
+          // style={{ padding: "3rem" }}
+        />
+        <img
+          src={"https://github-readme-streak-stats.herokuapp.com/?user=singh2198"}
+          alt="dummy_img_github"
+          
+          id="github-streak-stats"
+          // width={"40%"}
+          className="w-[60%] sm:w-[50%] p-10"
+          // style={{ padding: "3rem" }}
         />
         <img
           src={"https://github-readme-stats.vercel.app/api/top-langs/?username=singh2198"}
