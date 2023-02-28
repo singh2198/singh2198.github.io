@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb156ae4.css",
-    "main.js": "/static/js/main.0e7bc7ef.js",
+    "main.css": "/static/css/main.809316d3.css",
+    "main.js": "/static/js/main.36492a44.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/zeemovieapp.png": "/static/media/zeemovieapp.5e34ccf09b33e5833bb8.png",
     "static/media/ytapp.png": "/static/media/ytapp.61b4a623e6c2f6c42843.png",
@@ -21,12 +21,12 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.fb156ae4.css.map": "/static/css/main.fb156ae4.css.map",
-    "main.0e7bc7ef.js.map": "/static/js/main.0e7bc7ef.js.map",
+    "main.809316d3.css.map": "/static/css/main.809316d3.css.map",
+    "main.36492a44.js.map": "/static/js/main.36492a44.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb156ae4.css",
-    "static/js/main.0e7bc7ef.js"
+    "static/css/main.809316d3.css",
+    "static/js/main.36492a44.js"
   ]
 }
