@@ -14,6 +14,12 @@ const Home = () => {
   //   height: "12rem",
 
   // }
+  const handleresumebutton = () => {
+    window.open(
+      "https://drive.google.com/file/d/1IjOTS4_dS3rXx9T80Ppr4-NG_Vh2lmRV/view?usp=sharing",
+      "_blank"
+    );
+  };
 
   return (
     <div
@@ -41,18 +47,22 @@ const Home = () => {
           </p>
 
           {/*  Porfolio  Buttton  */}
-          <div>
-            <Link
-              to="Contact"
-              smooth
+          <div  >
+            <a
+              id="resume-button-2"
+              href="Akash-Singh-Resume.pdf"
+              download={true}
+              target="_blank"
+              rel="noreferrer"
+              onClick={handleresumebutton}
               duration={500}
               className=" group text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer "
             >
-              Down
+              Resume
               <span className="group-hover:rotate-90 duration-300 h-10">
                 <MdOutlineKeyboardArrowRight size={30} className="ml-1 mt-1" />
               </span>
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -61,7 +71,7 @@ const Home = () => {
             src={akashimg}
             alt="img"
             class="home-img"
-            // style={{borderRadius:"9999px" ,height:"12rem"}}
+            style={{borderRadius:"9999px" ,height:"15rem", marginLeft:"auto",marginRight:"auto"}}
             />
             {/* className=".home-img rounded-full mx-auto w-lg h-48 md:h-[100%]  hover:cursor-pointer" */}
         </div>

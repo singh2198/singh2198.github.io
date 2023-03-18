@@ -92,8 +92,10 @@ const Experiance = () => {
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-20 px-15 mx-10 grid-cols-2 sm:px-0  md:mx-20 mt-5 ">
         {projects.map(({ id, src, style, title,climg,clname }) => (
+
+          <div class="skills-card">
+
           <div
-            class="skills-card"
             key={id}
             className={`shadow-lg  rounded-lg ${style} hover:cursor-pointer hover:scale-105 w-sm `}
           >
@@ -101,6 +103,7 @@ const Experiance = () => {
             <img  class={climg}  src={src} alt="dummy_img"   style={{width:"80px",marginLeft:"auto",marginRight:"auto"}} />
             <p class={clname}   style={{marginTop:"16px",textAlign:"center"}}>{title}</p>
 
+          </div>
           </div>
         ))}
       </div>

@@ -10,13 +10,13 @@ function Github() {
     <>
       <div className="bg-gradient-to-b from-gray-800 to-black sm:w-full w-[127%] md:h-full text-white grid justify-items-center">
         {/* <h2 className="text-4xl inline text-start">Github </h2> */}
+        <div class="react-activity-calendar">
         <img
-          class="react-activity-calendar"
           src={github1}
           alt="dummy_img"
-        
           className="w-[100%] sm:w-[80%] p-10"
         />
+        </div>
         <img
           src={"https://github-readme-stats.vercel.app/api?username=singh2198"}
           alt="dummy_img_github"
@@ -26,7 +26,7 @@ function Github() {
           // style={{ padding: "3rem" }}
         />
         <img
-          src={"https://github-readme-streak-stats.herokuapp.com/?user=singh2198"}
+          src={"https://github-readme-streak-stats.herokuapp.com?user=singh2198"}
           alt="dummy_img_github"
           
           id="github-streak-stats"

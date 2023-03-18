@@ -22,7 +22,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: ".project-card",
+      clp: "project-card",
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: ".project-card",
+      clp: "project-card",
     },
     {
       id: 3,
@@ -56,7 +56,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: ".project-card",
+      clp: "project-card",
     },
     {
       id: 4,
@@ -72,7 +72,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: ".project-card",
+      clp: "project-card",
     },
     {
       id: 5,
@@ -88,7 +88,7 @@ const Project = () => {
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
-      clp: ".project-card",
+      clp: "project-card",
     },
     // {
     //   id: 6,
@@ -114,11 +114,10 @@ const Project = () => {
         </div>
       </div>
 
-      {/* <Corosal projects={projects} /> */}
-
-      {/* corosel..... */}
+      
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 px-15 mx-8 sm:px-0 w-[88%] md:mx-20">
+        
         {projects.map(
           ({
             id,
@@ -135,10 +134,12 @@ const Project = () => {
             clt,
             cltech,
           }) => (
+
+
             <div
               class={clp}
               key={id}
-              className="shadow-md shadow-gray-600 rounded-lg w-[98%] sm:w-[100%] "
+              // className="shadow-md shadow-gray-600 rounded-lg w-[98%] sm:w-[100%] "
             >
               
               <img
@@ -151,12 +152,12 @@ const Project = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a
                     href={github}
-                    class={clgit}
+                    
                     target="_blank"
                     rel="noreferrer"
                   >
                     <button className="  bg-gradient-to-r from-cyan-500 to-blue-500 w-20 rounded-md ">
-                      <p>Code</p>
+                      <p class={clgit}>Code</p>
                     </button>
                   </a>
                 </button>
@@ -165,10 +166,10 @@ const Project = () => {
                     href={nitlify}
                     target="_blank"
                     rel="noreferrer"
-                    class={cldep}
+                    
                   >
                     <button className="bg-gradient-to-r from-cyan-500 to-blue-500 w-20 rounded-md ">
-                      <p>Demo</p>
+                      <p class={cldep}>Demo</p>
                     </button>
                   </a>
                 </button>
@@ -177,18 +178,18 @@ const Project = () => {
               <div className="">
                 <div className="flex justify-center">
                   <h1
-                    class={clt}
+                    
                     className="text-xl text-center bg-gradient-to-r from-cyan-500 to-blue-500  w-[66%]  font-light   rounded-md"
                   >
-                    {title}
+                    <h3 class={clt}>{title}</h3>  
                   </h1>
                 </div>
                 <div className=" m-4">
                   <p
-                    class={cld}
+                    // class={cld}
                     className="text-gray-500  text-md hover:text-xl hover:cursor-pointer hover:text-cyan-400 hover:duration-700 hover:scale-95"
                   >
-                    {discreption}
+                    <p class={cld}>{discreption}</p>
                   </p>
                 </div>
 
@@ -197,6 +198,9 @@ const Project = () => {
                 </div>
               </div>
             </div>
+
+
+          
           )
         )}
       </div>

@@ -20,11 +20,11 @@ const Nav = () => {
   };
 
   const Linkk = [
-    { id: 1, link: "home", cl: ".nav-link.home" },
-    { id: 2, link: "About", cl: ".nav-link.about" },
-    { id: 4, link: "Skills", cl: ".nav-link.skills" },
-    { id: 3, link: "Project", cl: ".nav-link.projects" },
-    { id: 5, link: "Contact", cl: ".nav-link.contact" },
+    { id: 1, link: "home", cl: "nav-link home" },
+    { id: 2, link: "about", cl: "nav-link about" },
+    { id: 4, link: "Skills", cl: "nav-link skills" },
+    { id: 3, link: "Project", cl: "nav-link projects" },
+    { id: 5, link: "Contact", cl: "nav-link contact" },
   ];
 
   return (
@@ -39,16 +39,14 @@ const Nav = () => {
             return (
               <p
                 key={id}
-                // id={cl}
-                className=" px-3 capitalize  duration-100 cursor-pointer text-gray-500 font-medium   text-xl"
+                // class={cl}
+                style={{paddingLeft:"0.75rem",textTransform:"capitalize" ,  cursor:"pointer"  , color:"grey" , paddingRight: "0.75rem" ,transitionDuration: "100ms" ,fontWeight:500  ,fontSize:"1.25rem" ,lineHeight:"1.75rem" }}
+                // className=" px-3 capitalize  duration-100 cursor-pointer text-gray-500 font-medium   text-xl"
               >
                 <Link
                   // onClick={() => setbar(!navbar)}
                   to={link}
                   class={cl}
-                  // class={cl}
-                  // href={"Akash-Singh-Resume.pdf"}
-                  // download={true}
                   target="_blank"
                   rel="noreferrer"
                   smooth
@@ -61,14 +59,14 @@ const Nav = () => {
           })}
 
           <a
-            className=" duration-100 cursor-pointer text-gray-500 font-medium text-xl"
+            // className=" duration-100 cursor-pointer text-gray-500 font-medium text-xl"
             href="Akash-Singh-Resume.pdf"
             download={true}
             target="_blank"
             rel="noreferrer"
             onClick={handleresumebutton}
-            // id=".nav-link.resume"
-            id="resume-link-1"
+            class="nav-link resume"
+            id="resume-button-1"
           >
             Resume
           </a>
@@ -107,14 +105,14 @@ const Nav = () => {
               );
             })}
             <a
-              className="px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize hover:scale-95"
+              // className="px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize hover:scale-95"
               href="Akash-Singh-Resume.pdf"
               download={true}
               target="_blank"
               rel="noreferrer"
               onClick={handleresumebutton}
-              // id=".nav-link.resume"
-              id="resume-link-1"
+              class="nav-link resume"
+              id="resume-button-1"
             >
               Resume
             </a>

@@ -92,6 +92,7 @@ const Contact = () => {
               Let's talk
             </button>
             <h2 id="contact-phone" className="text-center">Contact :8755741512</h2>
+            <h2 id="contact-email" className="text-center">Email: 8755akash@gamil.com</h2>
           </form>
         </div>
 
@@ -101,7 +102,7 @@ const Contact = () => {
           <ul className="flex flex-row justify-center">
             {links.map(({ id, child, href, style, download ,idd}) => (
               <li
-                id={idd}
+                
                 key={id}
                 className={
                   "flex  items-center w-30 h-14 px-3  hover:rounded-md duration-300 "
@@ -113,6 +114,7 @@ const Contact = () => {
                   download={download}
                   target="_blank"
                   rel="noreferrer"
+                  id={idd}
                 >
                   {child}
                 </a>
