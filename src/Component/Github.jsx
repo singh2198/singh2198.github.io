@@ -14,7 +14,7 @@ function Github() {
         <img
           src={github1}
           alt="dummy_img"
-          className="w-[100%] sm:w-[80%] p-10"
+          className="w-[100%] sm:w-[80%] p-10 md:ml-32"
         />
         </div>
         <img

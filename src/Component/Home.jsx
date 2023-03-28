@@ -3,23 +3,18 @@ import akashimg from "../assets/akash-pic.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { Image } from "@chakra-ui/react";
-// import homecss from ""
-// import style from "./home.module.css"
+
+
 
 const Home = () => {
-  // style={
-  //   borderRadius:"9999px",
-  //   marginLeft: "auto",
-  //   marginRight: "auto",
-  //   height: "12rem",
+ 
 
-  // }
-  const handleresumebutton = () => {
+  function resume() {
     window.open(
       "https://drive.google.com/file/d/1IjOTS4_dS3rXx9T80Ppr4-NG_Vh2lmRV/view?usp=sharing",
-      "_blank"
-    );
-  };
+      "_blank"
+    );
+  }
 
   return (
     <div
@@ -46,27 +41,43 @@ const Home = () => {
             positive energy to your origination .
           </p>
 
-          {/*  Porfolio  Buttton  */}
-          <div  >
+          {/* <div  id="resume-button-2">
             <a
-              id="resume-button-2"
               href="Akash-Singh-Resume.pdf"
               download={true}
               target="_blank"
               rel="noreferrer"
               onClick={handleresumebutton}
               duration={500}
-              className=" group text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer "
+              id="resume-link-2"
+              
             >
               Resume
-              <span className="group-hover:rotate-90 duration-300 h-10">
+              
+            </a>
+          </div> */}/
+          <button
+            id="resume-button-2"
+            onClick={resume}
+           
+          >
+            <a
+              id="resume-link-2"
+              href="Akash-Singh-Resume.pdf"
+              download="Akash-Singh-Resume"
+              target="_blank"
+              rel="noreferrer" 
+              className=" group text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer "
+            >
+             Resume
+             <span className="group-hover:rotate-90 duration-300 h-10">
                 <MdOutlineKeyboardArrowRight size={30} className="ml-1 mt-1" />
               </span>
             </a>
-          </div>
+            </button>
         </div>
 
-        <div className=" h-3/4 sm:h-[50%] md:top-10 ">
+        <div className=" h-[127%] sm:h-[50%] md:top-10 ">
           <img
             src={akashimg}
             alt="img"

@@ -12,12 +12,19 @@ const Nav = () => {
   // console.log(resume);
   // console.log(navbar);
 
-  const handleresumebutton = () => {
+  // const handleresumebutton = () => {
+  //   window.open(
+  //     "https://drive.google.com/file/d/1IjOTS4_dS3rXx9T80Ppr4-NG_Vh2lmRV/view?usp=sharing",
+  //     "_blank"
+  //   );
+  // };
+
+  function resume() {
     window.open(
       "https://drive.google.com/file/d/1IjOTS4_dS3rXx9T80Ppr4-NG_Vh2lmRV/view?usp=sharing",
-      "_blank"
-    );
-  };
+      "_blank"
+    );
+  }
 
   const Linkk = [
     { id: 1, link: "home", cl: "nav-link home" },
@@ -58,8 +65,9 @@ const Nav = () => {
             );
           })}
 
-          <a
+          {/* <a
             // className=" duration-100 cursor-pointer text-gray-500 font-medium text-xl"
+            
             href="Akash-Singh-Resume.pdf"
             download={true}
             target="_blank"
@@ -69,7 +77,24 @@ const Nav = () => {
             id="resume-button-1"
           >
             Resume
-          </a>
+          </a> */}
+          <button
+            id="resume-button-1"
+            onClick={resume}
+           
+          >
+            <a
+            style={{transitionduration:"100ms",cursor:"pointer",color:"gray",fontWeight:"500",fontsize:"1.5rem",lineheight:"1.7rem",fontSize:"20px"}}
+              id="resume-link-1"
+              href="Akash-Singh-Resume.pdf"
+              download="Akash-Singh-Resume"
+              target="_blank"
+              rel="noreferrer" 
+              class="nav-link resume"
+            >
+             Resume
+            </a>
+            </button>
         </div>
 
         <div
@@ -104,9 +129,10 @@ const Nav = () => {
                 </p>
               );
             })}
-            <a
+            {/* <a
               // className="px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize hover:scale-95"
               href="Akash-Singh-Resume.pdf"
+              
               download={true}
               target="_blank"
               rel="noreferrer"
@@ -115,7 +141,27 @@ const Nav = () => {
               id="resume-button-1"
             >
               Resume
+            </a> */}
+             <button
+            id="resume-button-1"
+            onClick={resume}
+           
+          >
+            <a
+            style={{transitionduration:"100ms",cursor:"pointer",color:"gray",fontWeight:"500",fontsize:"1.5rem",lineheight:"1.7rem",fontSize:"36px"}}
+              id="resume-link-1"
+              href="Akash-Singh-Resume.pdf"
+              download="Akash-Singh-Resume"
+              target="_blank"
+              rel="noreferrer" 
+              class="nav-link resume"
+            >
+             Resume
             </a>
+            </button>
+
+
+
           </ul>
         )}
       </div>

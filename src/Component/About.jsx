@@ -3,16 +3,17 @@ import React from "react";
 
 const About = () => {
   return (
+    
+    <div className="sm:w-full w-[127%] bg-gradient-to-b from-gray-700 to-gray-800 text-white ">
     <div
       id="about"
-      // class="about section"
-      name="#about"
-      className="sm:w-full w-[127%] bg-gradient-to-b from-gray-700 to-gray-800 text-white"
+      className="about section"
+      name="about"
     >
       
       <div  className=" flex flex-col justify-center mx-auto w-full h-full p-4 max-w-screen-lg"  >
         <div style={{paddingBottom:"8px"}}  >
-          <h3  style={{fontSize:"2.25rem",lineHeight:"2.5rem", fontWeight:700}}  class="#about.about.section">About </h3>
+          <h3  style={{fontSize:"2.25rem",lineHeight:"2.5rem", fontWeight:700,color:"white"}}  >About </h3>
         </div>
 
         <div id="user-detail-intro">
@@ -28,6 +29,9 @@ const About = () => {
         <br />
       </div>
     </div>
+
+    </div>
+  
   );
 };
 
