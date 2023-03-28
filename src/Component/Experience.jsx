@@ -7,7 +7,8 @@ import nextjs from "../assets/nextjs.png";
 import nodejs from "../assets/node.png";
 // import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import mongodb from "../assets/Mongodb.png"
+import TS from "../assets/TS.png"
 
 const Experiance = () => {
   const projects = [
@@ -53,8 +54,8 @@ const Experiance = () => {
     },
     {
       id: 6,
-      src: tailwind,
-      title: "Tailwind",
+      src: TS,
+      title: "TypeScript",
       style: "shadow-blue-500",
       climg:"skills-card-img",
       clname:"skills-card-name"
@@ -71,6 +72,14 @@ const Experiance = () => {
       id: 8,
       src: nodejs,
       title: "nodejs",
+      style: "shadow-green-500",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
+    },
+    {
+      id: 9,
+      src: mongodb,
+      title: "MongoDb",
       style: "shadow-green-500",
       climg:"skills-card-img",
       clname:"skills-card-name"
