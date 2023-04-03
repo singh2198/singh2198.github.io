@@ -20,7 +20,7 @@ const Home = () => {
     <div
       id="home"
       name="home"
-      className=" h-screen sm:max-w-full w-[127%] bg-gradient-to-b from-black via-black to-gray-700"
+      className="   sm:h-107px md:h-screen sm:max-w-full w-[127%] bg-gradient-to-b from-black via-black to-gray-700"
     >
       <div className="  mx-auto max-w-6xl grid grid-flow-row items-center justify-cente  h-full px-4  lg:grid-flow-col">
         <div className="flex flex-col justify-center max-h-max mt-20 md:mt-20 md:m-10 ">
@@ -77,12 +77,13 @@ const Home = () => {
             </button>
         </div>
 
-        <div className=" h-[127%] sm:h-[50%] md:top-10 ">
+        <div className=" h-[108%,127%] sm:h-[50%] md:top-10 ">
+          
           <img
             src={akashimg}
             alt="img"
             class="home-img"
-            style={{borderRadius:"9999px" ,height:"15rem", marginLeft:"auto",marginRight:"auto"}}
+            style={{borderRadius:"9999px" ,height:"14rem", marginLeft:"auto",marginRight:"auto" }}
             />
             {/* className=".home-img rounded-full mx-auto w-lg h-48 md:h-[100%]  hover:cursor-pointer" */}
         </div>

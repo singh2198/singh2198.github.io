@@ -1,7 +1,7 @@
 import React from "react";
 import algorithm_visulizer from "../assets/portfolio/algorithm_visulizer.jpg";
 import monday from "../assets/portfolio/monday.jpg";
-// import navbar from "../assets/portfolio/navbar.jpg";
+import doorsteps from "../assets/portfolio/doorsteps.png"
 import zee from "../assets/portfolio/zeemovieapp.png";
 import youtube from "../assets/portfolio/ytapp.png";
 import homedocar from "../assets/home-docar.png";
@@ -90,15 +90,23 @@ const Project = () => {
       cldep: "project-deployed-link",
       clp: "project-card",
     },
-    // {
-    //   id: 6,
-    //   src: navbar,
-    //   title: "algorithum",
-    //   github: "",
-    //   nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
-    //   discreption: "It Visulize the all sorting algo on display .",
-    //   techstack: "Reactjs | js | HTML |CSS",
-    // },
+    {
+      id: 6,
+      src: doorsteps,
+      title: "Nearbuy ",
+      github: "https://github.com/KaustubhN12/dizzy-stitch-9009",
+      nitlify: "https://doorstep-iota.vercel.app/",
+      discreption:
+        "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories, just visit the product listing page and you will see all the services near your location..",
+      techstack: "Reactjs | js | HTML | Chakra UI | Redux | MongoDB | Express | Nodejs",
+      clt: "project-title",
+      cld: "project-description",
+      cltech: "project-tech-stack",
+      clgit: "project-github-link",
+      cldep: "project-deployed-link",
+      clp: "project-card",
+    }
+    
   ];
 
   return (
