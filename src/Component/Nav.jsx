@@ -21,9 +21,9 @@ const Nav = () => {
 
   function resume() {
     window.open(
-      "https://drive.google.com/file/d/1IjOTS4_dS3rXx9T80Ppr4-NG_Vh2lmRV/view?usp=sharing",
-      "_blank"
-    );
+      "https://drive.google.com/file/d/10F8sgx3iLRN0Xf4mZwMU1hGUQnM6zoto/view?usp=sharing",
+      "_blank"
+    );
   }
 
   const Linkk = [
@@ -47,7 +47,17 @@ const Nav = () => {
               <p
                 key={id}
                 // class={cl}
-                style={{paddingLeft:"0.75rem",textTransform:"capitalize" ,  cursor:"pointer"  , color:"grey" , paddingRight: "0.75rem" ,transitionDuration: "100ms" ,fontWeight:500  ,fontSize:"1.25rem" ,lineHeight:"1.75rem" }}
+                style={{
+                  paddingLeft: "0.75rem",
+                  textTransform: "capitalize",
+                  cursor: "pointer",
+                  color: "grey",
+                  paddingRight: "0.75rem",
+                  transitionDuration: "100ms",
+                  fontWeight: 500,
+                  fontSize: "1.25rem",
+                  lineHeight: "1.75rem",
+                }}
                 // className=" px-3 capitalize  duration-100 cursor-pointer text-gray-500 font-medium   text-xl"
               >
                 <Link
@@ -78,23 +88,27 @@ const Nav = () => {
           >
             Resume
           </a> */}
-          <button
-            id="resume-button-1"
-            onClick={resume}
-           
-          >
+          <button id="resume-button-1" onClick={resume}>
             <a
-            style={{transitionduration:"100ms",cursor:"pointer",color:"gray",fontWeight:"500",fontsize:"1.5rem",lineheight:"1.7rem",fontSize:"20px"}}
+              style={{
+                transitionduration: "100ms",
+                cursor: "pointer",
+                color: "gray",
+                fontWeight: "500",
+                fontsize: "1.5rem",
+                lineheight: "1.7rem",
+                fontSize: "20px",
+              }}
               id="resume-link-1"
               href="Akash-Singh-Resume.pdf"
-              download="Akash-Singh-Resume"
+              download="Akash-Singh-Resume.pdf"
               target="_blank"
-              rel="noreferrer" 
+              rel="noreferrer"
               class="nav-link resume"
             >
-             Resume
+              Resume
             </a>
-            </button>
+          </button>
         </div>
 
         <div
@@ -110,7 +124,7 @@ const Nav = () => {
 
         {navbar && (
           <ul className="flex  flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-gray-400  bg-gradient-to-b from-black to-gray-800 ">
-            {Linkk.map(({ id, link ,cl}) => {
+            {Linkk.map(({ id, link, cl }) => {
               return (
                 <p
                   class={id}
@@ -142,26 +156,27 @@ const Nav = () => {
             >
               Resume
             </a> */}
-             <button
-            id="resume-button-1"
-            onClick={resume}
-           
-          >
-            <a
-            style={{transitionduration:"100ms",cursor:"pointer",color:"gray",fontWeight:"500",fontsize:"1.5rem",lineheight:"1.7rem",fontSize:"36px"}}
-              id="resume-link-1"
-              href="Akash-Singh-Resume.pdf"
-              download="Akash-Singh-Resume"
-              target="_blank"
-              rel="noreferrer" 
-              class="nav-link resume"
-            >
-             Resume
-            </a>
+            <button id="resume-button-1" onClick={resume}>
+              <a
+                style={{
+                  transitionduration: "100ms",
+                  cursor: "pointer",
+                  color: "gray",
+                  fontWeight: "500",
+                  fontsize: "1.5rem",
+                  lineheight: "1.7rem",
+                  fontSize: "36px",
+                }}
+                id="resume-link-1"
+                href="Akash-Singh-Resume.pdf"
+                download="Akash-Singh-Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                class="nav-link resume"
+              >
+                Resume
+              </a>
             </button>
-
-
-
           </ul>
         )}
       </div>

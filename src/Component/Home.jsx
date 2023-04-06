@@ -7,7 +7,7 @@ import { Image } from "@chakra-ui/react";
 const Home = () => {
   function resume() {
     window.open(
-      "https://drive.google.com/file/d/1IjOTS4_dS3rXx9T80Ppr4-NG_Vh2lmRV/view?usp=sharing",
+      "https://drive.google.com/file/d/10F8sgx3iLRN0Xf4mZwMU1hGUQnM6zoto/view?usp=sharing",
       "_blank"
     );
   }
@@ -54,7 +54,7 @@ const Home = () => {
             <a
               id="resume-link-2"
               href="Akash-Singh-Resume.pdf"
-              download="Akash-Singh-Resume"
+              download="Akash-Singh-Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className=" group text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer "
