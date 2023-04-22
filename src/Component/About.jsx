@@ -19,8 +19,7 @@ const About = () => {
         <div id="user-detail-intro">
         <p className=" mt-1 text-gray-400 py-0 sm:py-3 w-full" >
           Aspiring Full Stack MERN Developer, enthusiastic to learn and explore
-          new technologies Journey with Masai is awesome ,35 weeks of coding
-          experiance and learn Frontend ,Backend ,NodeJS .Completed my 4 Major Projects 2
+          new technologies, from last one year doing Reactjs ,Nextjs,Typescript in Frontend ,Nodejs ,Express,Mongodb  in Backend.With 4 Major Projects ,2
           solo and 2 Colaboration. Currently looking for a job opportunity in a
           technology-driven organization.
         </p>

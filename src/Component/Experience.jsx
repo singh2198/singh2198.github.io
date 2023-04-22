@@ -48,7 +48,7 @@ const Experiance = () => {
       id: 5,
       src: github,
       title: "Github",
-      style: "shadow-red-500",
+      style: "shadow-red-900",
       climg:"skills-card-img",
       clname:"skills-card-name"
     },
@@ -64,7 +64,7 @@ const Experiance = () => {
       id: 7,
       src: nextjs,
       title: "Nextjs",
-      style: "shadow-orange-500",
+      style: "shadow-orange-100",
       climg:"skills-card-img",
       clname:"skills-card-name"
     },
@@ -84,6 +84,14 @@ const Experiance = () => {
       climg:"skills-card-img",
       clname:"skills-card-name"
     },
+    {
+      id: 10,
+      src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEX////q6uqgoaEZGhtzc3SSk5Ourq5hYmLHx8f09PVOTk+7u7vf39+DhITT09M3ODgiPZ4kAAAAxElEQVR4Ac2OMQgBARSGv6sDQfbSKaWsHsgV6vZS9lK3F9lL2ctsvcmm7GWfyF5XNhvTbef+yT7x1ft7/f3/6/HHOC3r1gnmQLhGamYjDj5U7ALk7UbD4tp4T2EA4EnDFeGMxQygdQWqEwp+OQsBkXrlAU76nAA4Y2mlB2drotVMDMHN5mtMwbMYVeQjNsEKkaJcm3wv10fcl4Dr8zgSnQB2L/RYKdrKA3LW0etun6yFCMwsyTK6qzrFu733xbQOeAk/4gMf6S1GJRc9sQAAAABJRU5ErkJggg==",
+      title: "Express js",
+      style: "shadow-red-100",
+      climg:"skills-card-img",
+      clname:"skills-card-name"
+    },
   ];
 
   return (
@@ -99,7 +107,7 @@ const Experiance = () => {
         </div>
       </div>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-20 px-15 mx-10 grid-cols-2 sm:px-0  md:mx-20 mt-5 ">
+      <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-20 px-15 p-21px mx-10 grid-cols-2 sm:px-0  md:mx-20 mt-5 ">
         {projects.map(({ id, src, style, title,climg,clname }) => (
 
           <div class="skills-card">

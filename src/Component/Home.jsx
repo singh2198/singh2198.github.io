@@ -27,9 +27,9 @@ const Home = () => {
             id="user-detail-intro"
             className="text-gray-400 py-3 sm:py-3 max-w-2xl"
           >
-            I am <span id="user-detail-name">Akash Singh </span>Full Stack
+            <span id="user-detail-name">Akash Singh </span> <br></br>Full Stack
             Web Developer familiar with a wide range of programming utilities
-            and languages ,Frameworks ,testing. Logical and results-driven
+            and languages ,Frameworks ,testing tooles (cypress & jest). Logical and results-driven
             Programmer dedicated to building and optimizing user-focused
             websites and application with creative mind .looking for a job
             opportunity in a technology-driven organization .
