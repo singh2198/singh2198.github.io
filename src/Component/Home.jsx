@@ -27,7 +27,8 @@ const Home = () => {
             id="user-detail-intro"
             className="text-gray-400 py-3 sm:py-3 max-w-2xl"
           >
-            <span id="user-detail-name">Akash Singh </span> <br></br>Full Stack
+            {/* <span id="user-detail-name">Akash Singh </span> <br></br> */}
+            Full Stack
             Web Developer familiar with a wide range of programming utilities
             and languages ,Frameworks ,testing tooles (cypress & jest). Logical and results-driven
             Programmer dedicated to building and optimizing user-focused
@@ -67,7 +68,7 @@ const Home = () => {
           </button>
         </div>
 
-        <div className=" h-[108%,127%] sm:h-[50%] md:top-10 ">
+        <div className=" h-[108%,127%] sm:h-[150%] md:h-[170%] lg:h-[50%] md:top-10 ">
           <img
             src={akashimg}
             alt="img"

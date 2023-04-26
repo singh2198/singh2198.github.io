@@ -110,6 +110,7 @@ const Project = () => {
   ];
 
   return (
+    
     <div
       id="projects"
       name="Project"
@@ -117,7 +118,7 @@ const Project = () => {
     >
       <div className="max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold">Project</p>
+          <p className="text-4xl lime-height:2 font-bold" >Project</p>
           {/* <p className='py-6'>Check out some of my work right here</p> */}
         </div>
       </div>

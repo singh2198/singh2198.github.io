@@ -36,9 +36,9 @@ const Nav = () => {
 
   return (
     <div id="nav-menu">
-      <div className="flex justify-between items-center w-full h-20 px-4  text-white bg-black fixed">
+      <div className="flex justify-between items-center w-full h-15 px-5  text-white bg-black fixed">
         <div>
-          {/* <p className='text-3xl text-white hover:cursor-pointer font-signature mx-2 mt-4'>Akash </p> */}
+          <p className='text-2xl text-gray-400 hover:cursor-pointer font-signature mx-2 mt-4 '  id="user-detail-name">Akash Singh</p>
         </div>
 
         <div className=" hidden md:flex  ">
@@ -48,6 +48,7 @@ const Nav = () => {
                 key={id}
                 // class={cl}
                 style={{
+                  
                   paddingLeft: "0.75rem",
                   textTransform: "capitalize",
                   cursor: "pointer",
@@ -67,7 +68,7 @@ const Nav = () => {
                   target="_blank"
                   rel="noreferrer"
                   smooth
-                  duration={500}
+                  duration={900}
                 >
                   {link}
                 </Link>
