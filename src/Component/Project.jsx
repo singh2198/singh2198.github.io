@@ -118,14 +118,14 @@ const Project = () => {
     >
       <div className="max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl lime-height:2 font-bold" >Project</p>
+          <p className="text-4xl lime-height:3 font-bold" >Project</p>
           {/* <p className='py-6'>Check out some of my work right here</p> */}
         </div>
       </div>
 
       
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 px-15 mx-8 sm:px-0 w-[88%] md:mx-20">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 px-15  sm:px-0 w-[90%]  m-auto">
         
         {projects.map(
           ({
