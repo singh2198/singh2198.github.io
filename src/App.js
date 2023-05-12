@@ -9,7 +9,7 @@ import Home from './Component/Home';
 
 import Nav from './Component/Nav';
 import Project from './Component/Project';
-// import SocialLinks from './Component/SocialLinks';
+import SocialLinks from './Component/SocialLinks';
 
 
 
@@ -25,7 +25,7 @@ function App() {
     <Github/>
     <Contact/>
 
-    {/* <SocialLinks/>  */}
+    <SocialLinks/> 
 
     </>
   );

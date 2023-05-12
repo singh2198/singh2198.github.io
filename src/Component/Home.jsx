@@ -18,16 +18,15 @@ const Home = () => {
       name="home"
       className="   sm:h-107px md:h-screen sm:max-w-full w-[127%] bg-gradient-to-b from-black via-black to-gray-700"
     >
-      <div className="  mx-auto max-w-6xl grid grid-flow-row items-center justify-cente  h-full px-4  lg:grid-flow-col">
+      <div className="  mx-auto max-w-6xl grid grid-flow-row items-center justify-center  h-full px-4  lg:grid-flow-col">
         <div className="flex flex-col justify-center max-h-max mt-20 md:mt-20 md:m-10 ">
           <h1 className="text-4xl sm:text-7xl font-bold text-white ">
             I'm a Full Stack Developer
           </h1>
           <p
             id="user-detail-intro"
-            className="text-gray-400 py-3 sm:py-3 max-w-2xl"
+            className="text-gray-400 py-3 sm:py-3 max-w-2xl "
           >
-            {/* <span id="user-detail-name">Akash Singh </span> <br></br> */}
             Full Stack
             Web Developer familiar with a wide range of programming utilities
             and languages ,Frameworks ,testing tooles (cypress & jest). Logical and results-driven
@@ -68,8 +67,9 @@ const Home = () => {
           </button>
         </div>
 
-        <div className=" h-[108%,127%] sm:h-[150%] md:h-[170%] lg:h-[50%] md:top-10 ">
+        <div className=" h-[108%,127%] sm:h-[150%] md:h-[170%] lg:h-[50%] md:top-10 origin-center ">
           <img
+            
             src={akashimg}
             alt="img"
             class="home-img"

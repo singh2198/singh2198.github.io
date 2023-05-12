@@ -5,6 +5,8 @@ import doorsteps from "../assets/portfolio/doorsteps.png"
 import zee from "../assets/portfolio/zeemovieapp.png";
 import youtube from "../assets/portfolio/ytapp.png";
 import homedocar from "../assets/home-docar.png";
+import { FaGithub } from "react-icons/fa";
+import {TbFileCode}  from "react-icons/tb"
 
 const Project = () => {
   const projects = [
@@ -16,7 +18,7 @@ const Project = () => {
       nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
       discreption:
         "It Visulize the Four sorting algorithm on display ,How it work in backgrond .",
-      techstack: "Reactjs ,js ,HTML ,CSS ,Four Algorithum",
+      techstack: "Reactjs, js, HTML ,CSS ,Four Algorithum",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -50,7 +52,7 @@ const Project = () => {
       nitlify: "https://phenomenal-swan-bbd334.netlify.app/",
       discreption:
         "Online Movie App ,Clone of Zee movie app every time you refresh the page image is change .",
-      techstack: "Reactjs | js | HTML |CSS | external auth for authentication",
+      techstack: "Reactjs ,js ,HTML ,CSS ,external auth for authentication",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -66,7 +68,7 @@ const Project = () => {
       nitlify: "https://ubiquitous-swan-7471bb.netlify.app/",
       discreption:
         "Simple Youtube App with Search and video Playing functionality",
-      techstack: " js | HTML |CSS",
+      techstack: " javascript , HTML ,CSS",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -82,7 +84,7 @@ const Project = () => {
       nitlify: "https://home-decor-omega.vercel.app/",
       discreption:
         "Home Decor is an E-commerce website providing products ranging from daily groceries to flashy accessories.",
-      techstack: "Reactjs | js | HTML | Chakra UI | Redux",
+      techstack: "Reactjs , js , HTML , Chakra UI , Redux",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -97,8 +99,8 @@ const Project = () => {
       github: "https://github.com/KaustubhN12/dizzy-stitch-9009",
       nitlify: "https://doorstep-iota.vercel.app/",
       discreption:
-        "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories, just visit the product listing page and you will see all the services near your location..",
-      techstack: "Reactjs | js | HTML | Chakra UI | Redux | MongoDB | Express | Nodejs",
+        "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories.Based upson Location",
+      techstack: "Reactjs , js , HTML , Chakra UI , Redux , MongoDB , Express , Nodejs",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -148,12 +150,14 @@ const Project = () => {
             <div
               class={clp}
               key={id}
+              style={{border:'1px solid grey',borderRadius:'10px' ,padding:'10px'}}
               // className="shadow-md shadow-gray-600 rounded-lg w-[98%] sm:w-[100%] "
             >
               
               <img
                 src={src}
                 alt=""
+                // width={'100%'}
                 className="rounded-md duration-200 hover:scale-105 "
               />
 
@@ -165,9 +169,10 @@ const Project = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="  bg-gradient-to-r from-cyan-500 to-blue-500 w-20 rounded-md ">
-                      <p class={clgit}>Code</p>
-                    </button>
+                    <div style={{display:'flex', justifyContent:'center'}}>
+                      {/* <p class={clgit}>Code</p> */}
+                      <TbFileCode size={30} class={clgit}  ></TbFileCode>
+                    </div>
                   </a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
@@ -177,9 +182,10 @@ const Project = () => {
                     rel="noreferrer"
                     
                   >
-                    <button className="bg-gradient-to-r from-cyan-500 to-blue-500 w-20 rounded-md ">
-                      <p class={cldep}>Demo</p>
-                    </button>
+                    <div className="  ">
+                      {/* <p class={cldep}>Demo</p> */}
+                      <FaGithub class={cldep} size={30}></FaGithub>
+                    </div>
                   </a>
                 </button>
               </div>
@@ -196,13 +202,13 @@ const Project = () => {
                 <div className=" m-4">
                   <p
                     // class={cld}
-                    className="text-gray-500  text-md hover:text-xl hover:cursor-pointer hover:text-cyan-400 hover:duration-700 hover:scale-95"
+                    className="text-gray-500  text-md  hover:cursor-pointer hover:text-cyan-400 hover:duration-700 hover:scale-95"
                   >
                     <p class={cld}>{discreption}</p>
                   </p>
                 </div>
 
-                <div className="m-4 text-gray-500 text-sm text-center hover:cursor-pointer hover:duration-1000 hover:text-xl hover:text-cyan-400 font-thin hover:scale-95">
+                <div className="m-4 text-gray-500 text-sm text-start hover:cursor-pointer hover:duration-1000  hover:text-cyan-400 font-thin hover:scale-95">
                   <p class={cltech}>Tech Stack:-{techstack}</p>
                 </div>
               </div>
