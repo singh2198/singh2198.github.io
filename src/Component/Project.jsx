@@ -194,7 +194,7 @@ const Project = () => {
                 <div className="flex justify-center">
                   <h1
                     
-                    className="text-xl text-center bg-gradient-to-r from-cyan-500 to-blue-500  w-[66%]  font-light   rounded-md"
+                    className="text-xl text-center text-grey-200  w-[66%]  font-light   rounded-md"
                   >
                     <h3 class={clt}>{title}</h3>  
                   </h1>
@@ -202,13 +202,13 @@ const Project = () => {
                 <div className=" m-4">
                   <p
                     // class={cld}
-                    className="text-gray-500  text-md  hover:cursor-pointer hover:text-cyan-400 hover:duration-700 hover:scale-95"
+                    className="text-gray-500  text-md  hover:cursor-pointer  hover:duration-700 hover:scale-95"
                   >
                     <p class={cld}>{discreption}</p>
                   </p>
                 </div>
 
-                <div className="m-4 text-gray-500 text-sm text-start hover:cursor-pointer hover:duration-1000  hover:text-cyan-400 font-thin hover:scale-95">
+                <div className="m-4 text-gray-500 text-sm text-start hover:cursor-pointer hover:duration-1000   font-thin hover:scale-95">
                   <p class={cltech}>Tech Stack:-{techstack}</p>
                 </div>
               </div>
