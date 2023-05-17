@@ -120,7 +120,7 @@ const Project = () => {
     >
       <div className="max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl lime-height:3 font-bold" >Project</p>
+          <p className="text-3xl lime-height:3 font-rig" >Project</p>
           {/* <p className='py-6'>Check out some of my work right here</p> */}
         </div>
       </div>
@@ -194,7 +194,7 @@ const Project = () => {
                 <div className="flex justify-center">
                   <h1
                     
-                    className="text-xl text-center text-grey-200  w-[66%]  font-light   rounded-md"
+                    className="text-2xl font-signature text-center text-grey-200  w-[66%]  font-light   rounded-md"
                   >
                     <h3 class={clt}>{title}</h3>  
                   </h1>
@@ -202,13 +202,13 @@ const Project = () => {
                 <div className=" m-4">
                   <p
                     // class={cld}
-                    className="text-gray-500  text-md  hover:cursor-pointer  hover:duration-700 hover:scale-95"
+                    className="text-gray-400  text-sm font-rig hover:cursor-pointer  hover:duration-700 hover:scale-95"
                   >
                     <p class={cld}>{discreption}</p>
                   </p>
                 </div>
 
-                <div className="m-4 text-gray-500 text-sm text-start hover:cursor-pointer hover:duration-1000   font-thin hover:scale-95">
+                <div className="m-4 text-gray-400 text-sm font-rig text-start hover:cursor-pointer hover:duration-1000   font-thin hover:scale-95">
                   <p class={cltech}>Tech Stack:-{techstack}</p>
                 </div>
               </div>

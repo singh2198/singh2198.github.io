@@ -59,7 +59,6 @@ const Nav = () => {
                   fontSize: "1.25rem",
                   lineHeight: "1.75rem",
                 }}
-                // className=" px-3 capitalize  duration-100 cursor-pointer text-gray-500 font-medium   text-xl"
               >
                 <Link
                   // onClick={() => setbar(!navbar)}

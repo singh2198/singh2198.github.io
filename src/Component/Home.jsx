@@ -1,8 +1,8 @@
 import React from "react";
 import akashimg from "../assets/akash-pic.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
-import { Image } from "@chakra-ui/react";
+import Typewriter from "typewriter-effect";
+
 
 const Home = () => {
   function resume() {
@@ -21,18 +21,24 @@ const Home = () => {
       <div className="  mx-auto max-w-6xl grid grid-flow-row items-center justify-center  h-full px-4  lg:grid-flow-col">
         <div className="flex flex-col justify-center max-h-max mt-20 md:mt-20 md:m-10 ">
           <h1 className="text-4xl sm:text-7xl font-bold text-white ">
-            I'm a Full Stack Developer
+            <Typewriter
+              options={{
+                strings: ["Im Full Stack Developer", "MERN Developer"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h1>
           <p
             id="user-detail-intro"
-            className="text-gray-400 py-3 sm:py-3 max-w-2xl "
+            className="text-gray-400 py-3 sm:py-3 max-w-2xl  text-md"
           >
-            Full Stack
-            Web Developer familiar with a wide range of programming utilities
-            and languages ,Frameworks ,testing tooles (cypress & jest). Logical and results-driven
-            Programmer dedicated to building and optimizing user-focused
-            websites and application with creative mind .looking for a job
-            opportunity in a technology-driven organization .
+            Full Stack Web Developer familiar with a wide range of programming
+            utilities and languages ,Frameworks ,testing tooles (cypress &
+            jest). Logical and results-driven Programmer dedicated to building
+            and optimizing user-focused websites and application with creative
+            mind .looking for a job opportunity in a technology-driven
+            organization .
           </p>
           {/* <div  id="resume-button-2">
             <a
@@ -69,7 +75,6 @@ const Home = () => {
 
         <div className=" h-[108%,127%] sm:h-[150%] md:h-[170%] lg:h-[50%] md:top-10 origin-center ">
           <img
-            
             src={akashimg}
             alt="img"
             class="home-img"

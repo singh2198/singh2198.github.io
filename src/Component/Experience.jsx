@@ -102,7 +102,7 @@ const Experiance = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-10">
-          <p className="text-4xl font-bold ">Skills</p>
+          <p className="text-3xl font-rig ">Skills</p>
           {/* <p className='py-6'></p> */}
         </div>
       </div>
@@ -117,7 +117,7 @@ const Experiance = () => {
           >
 
             <img  class={climg}  src={src} alt="dummy_img"   style={{width:"80px",marginLeft:"auto",marginRight:"auto"}} />
-            <p class={clname}   style={{marginTop:"16px",textAlign:"center"}}>{title}</p>
+            <p class={clname}   style={{marginTop:"16px",textAlign:"center",}}>{title}</p>
 
           </div>
           </div>
