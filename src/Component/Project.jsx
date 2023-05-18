@@ -12,13 +12,13 @@ const Project = () => {
   const projects = [
     {
       id: 1,
-      src: algorithm_visulizer,
-      title: " Algorithum Visulizer",
-      github: "https://github.com/singh2198/Algorithm_visualizer",
-      nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
+      src: doorsteps,
+      title: "Nearbuy ",
+      github: "https://github.com/KaustubhN12/dizzy-stitch-9009",
+      nitlify: "https://doorstep-iota.vercel.app/",
       discreption:
-        "It Visulize the Four sorting algorithm on display ,How it work in backgrond .",
-      techstack: "Reactjs, js, HTML ,CSS ,Four Algorithum",
+        "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories.Based upson Location",
+      techstack: "Reactjs , js , HTML , Chakra UI , Redux , MongoDB , Express , Nodejs",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -28,14 +28,13 @@ const Project = () => {
     },
     {
       id: 2,
-      src: monday,
-      title: "Monday  ",
-      github:
-        "https://github.com/singh2198/prompt-toothbrush-9795/tree/day-2/monday",
-      nitlify: "https://phenomenal-druid-f85e5a.netlify.app/",
+      src: homedocar,
+      title: "E-commerce ",
+      github: "https://github.com/snehilagrahari/Home-Decor",
+      nitlify: "https://home-decor-omega.vercel.app/",
       discreption:
-        "Monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
-      techstack: "Reactjs ,js ,HTML ,CSS ,Localhost",
+        "Home Decor is an E-commerce website providing products ranging from daily groceries to flashy accessories.",
+      techstack: "Reactjs , js , HTML , Chakra UI , Redux",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -45,14 +44,13 @@ const Project = () => {
     },
     {
       id: 3,
-      src: zee,
-      title: "Zee App ",
-      github:
-        "https://github.com/singh2198/-screeching-idea-7572/tree/main/zee5",
-      nitlify: "https://phenomenal-swan-bbd334.netlify.app/",
+      src: algorithm_visulizer,
+      title: " Algorithum Visulizer",
+      github: "https://github.com/singh2198/Algorithm_visualizer",
+      nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
       discreption:
-        "Online Movie App ,Clone of Zee movie app every time you refresh the page image is change .",
-      techstack: "Reactjs ,js ,HTML ,CSS ,external auth for authentication",
+        "It Visulize the Four sorting algorithm on display ,How it work in backgrond .",
+      techstack: "Reactjs, js, HTML ,CSS ,Four Algorithum",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -78,13 +76,14 @@ const Project = () => {
     },
     {
       id: 5,
-      src: homedocar,
-      title: "E-commerce ",
-      github: "https://github.com/snehilagrahari/Home-Decor",
-      nitlify: "https://home-decor-omega.vercel.app/",
+      src: monday,
+      title: "Monday  ",
+      github:
+        "https://github.com/singh2198/prompt-toothbrush-9795/tree/day-2/monday",
+      nitlify: "https://phenomenal-druid-f85e5a.netlify.app/",
       discreption:
-        "Home Decor is an E-commerce website providing products ranging from daily groceries to flashy accessories.",
-      techstack: "Reactjs , js , HTML , Chakra UI , Redux",
+        "Monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
+      techstack: "Reactjs ,js ,HTML ,CSS ,Localhost",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
@@ -94,20 +93,24 @@ const Project = () => {
     },
     {
       id: 6,
-      src: doorsteps,
-      title: "Nearbuy ",
-      github: "https://github.com/KaustubhN12/dizzy-stitch-9009",
-      nitlify: "https://doorstep-iota.vercel.app/",
+      src: zee,
+      title: "Zee App ",
+      github:
+        "https://github.com/singh2198/-screeching-idea-7572/tree/main/zee5",
+      nitlify: "https://phenomenal-swan-bbd334.netlify.app/",
       discreption:
-        "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories.Based upson Location",
-      techstack: "Reactjs , js , HTML , Chakra UI , Redux , MongoDB , Express , Nodejs",
+        "Online Movie App ,Clone of Zee movie app every time you refresh the page image is change .",
+      techstack: "Reactjs ,js ,HTML ,CSS ,external auth for authentication",
       clt: "project-title",
       cld: "project-description",
       cltech: "project-tech-stack",
       clgit: "project-github-link",
       cldep: "project-deployed-link",
       clp: "project-card",
-    }
+    },
+    
+    
+    
     
   ];
 
