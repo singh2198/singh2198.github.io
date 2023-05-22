@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.b6dfc2d7.css",
-    "main.js": "/static/js/main.d533f3db.js",
+    "main.js": "/static/js/main.3bf453df.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/zeemovieapp.png": "/static/media/zeemovieapp.5e34ccf09b33e5833bb8.png",
-    "static/media/ytapp.png": "/static/media/ytapp.61b4a623e6c2f6c42843.png",
+    "static/media/zeemovieapp.png": "/static/media/zeemovieapp.02e40622b75bd6c2ee0f.png",
+    "static/media/ytapp.png": "/static/media/ytapp.6df964743e3db9d4f10c.png",
     "static/media/doorsteps.png": "/static/media/doorsteps.8c6a998147eed8c06219.png",
     "static/media/home-docar.png": "/static/media/home-docar.30b6edf3a72cc868eca1.png",
     "static/media/monday.jpg": "/static/media/monday.762ad6e9ae00d08d1af5.jpg",
@@ -22,11 +22,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.b6dfc2d7.css.map": "/static/css/main.b6dfc2d7.css.map",
-    "main.d533f3db.js.map": "/static/js/main.d533f3db.js.map",
+    "main.3bf453df.js.map": "/static/js/main.3bf453df.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6dfc2d7.css",
-    "static/js/main.d533f3db.js"
+    "static/js/main.3bf453df.js"
   ]
 }
