@@ -23,7 +23,7 @@ const Experiance = () => {
     {
       id: 2,
       src: html,
-      title: "html",
+      title: "HTML5",
       style: "shadow-orange-500",
       climg:"skills-card-img",
       clname:"skills-card-name"
@@ -31,7 +31,7 @@ const Experiance = () => {
     {
       id: 3,
       src: javascript,
-      title: "javascript",
+      title: "Javascript",
       style: "shadow-yellow-500",
       climg:"skills-card-img",
       clname:"skills-card-name"

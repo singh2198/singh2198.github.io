@@ -7,6 +7,7 @@ import youtube from "../assets/portfolio/ytapp.png";
 import homedocar from "../assets/home-docar.png";
 import { FaGithub } from "react-icons/fa";
 import {TbFileCode}  from "react-icons/tb"
+import {RxLink2} from "react-icons/rx"
 
 const Project = () => {
   const projects = [
@@ -174,7 +175,8 @@ const Project = () => {
                   >
                     <div style={{display:'flex', justifyContent:'center'}}>
                       {/* <p class={clgit}>Code</p> */}
-                      <TbFileCode size={30} class={clgit}  ></TbFileCode>
+                      {/* <TbFileCode size={30} class={clgit}  ></TbFileCode> */}
+                      <FaGithub size={30} class={clgit}></FaGithub>
                     </div>
                   </a>
                 </button>
@@ -185,9 +187,10 @@ const Project = () => {
                     rel="noreferrer"
                     
                   >
-                    <div className="  ">
+                    <div style={{display:'flex', justifyContent:'center'}}>
                       {/* <p class={cldep}>Demo</p> */}
-                      <FaGithub class={cldep} size={30}></FaGithub>
+                      {/* <FaGithub class={cldep} size={30}></FaGithub> */}
+                      <RxLink2 class={cldep} size={30}></RxLink2>
                     </div>
                   </a>
                 </button>
