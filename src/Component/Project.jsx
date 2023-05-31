@@ -10,6 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import {TbFileCode}  from "react-icons/tb"
 import {RxLink2} from "react-icons/rx"
 
+
 const Project = () => {
   const projects = [
     {
