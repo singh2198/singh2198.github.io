@@ -5,6 +5,7 @@ import doorsteps from "../assets/portfolio/doorsteps.png"
 import zee from "../assets/portfolio/zeemovieapp.png";
 import youtube from "../assets/portfolio/ytapp.png";
 import homedocar from "../assets/home-docar.png";
+import typing from "../assets/portfolio/typing.png"
 import { FaGithub } from "react-icons/fa";
 import {TbFileCode}  from "react-icons/tb"
 import {RxLink2} from "react-icons/rx"
@@ -61,6 +62,22 @@ const Project = () => {
     },
     {
       id: 4,
+      src: typing,
+      title: "Speed Typing ",
+      github: "https://github.com/singh2198/typing_testing",
+      nitlify: "https://chaabi-ny68.vercel.app/",
+      discreption:
+        "It Provide Typing Experiences ,it check your typing speed with WPM ,Average WPM and Accuracy and some additional feature is sound",
+      techstack: "Reactjs, javascript, HTML ,CSS ,",
+      clt: "project-title",
+      cld: "project-description",
+      cltech: "project-tech-stack",
+      clgit: "project-github-link",
+      cldep: "project-deployed-link",
+      clp: "project-card",
+    },
+    {
+      id: 5,
       src: youtube,
       title: "Youtbe App",
       github: "https://github.com/singh2198/YT-app/tree/master/YT%20app",
@@ -75,23 +92,23 @@ const Project = () => {
       cldep: "project-deployed-link",
       clp: "project-card",
     },
-    {
-      id: 5,
-      src: monday,
-      title: "Monday  ",
-      github:
-        "https://github.com/singh2198/prompt-toothbrush-9795/tree/day-2/monday",
-      nitlify: "https://phenomenal-druid-f85e5a.netlify.app/",
-      discreption:
-        "Monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
-      techstack: "Reactjs ,js ,HTML ,CSS ,Localhost",
-      clt: "project-title",
-      cld: "project-description",
-      cltech: "project-tech-stack",
-      clgit: "project-github-link",
-      cldep: "project-deployed-link",
-      clp: "project-card",
-    },
+    // {
+    //   id: 6,
+    //   src: monday,
+    //   title: "Monday  ",
+    //   github:
+    //     "https://github.com/singh2198/prompt-toothbrush-9795/tree/day-2/monday",
+    //   nitlify: "https://phenomenal-druid-f85e5a.netlify.app/",
+    //   discreption:
+    //     "Monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
+    //   techstack: "Reactjs ,js ,HTML ,CSS ,Localhost",
+    //   clt: "project-title",
+    //   cld: "project-description",
+    //   cltech: "project-tech-stack",
+    //   clgit: "project-github-link",
+    //   cldep: "project-deployed-link",
+    //   clp: "project-card",
+    // },
     {
       id: 6,
       src: zee,
