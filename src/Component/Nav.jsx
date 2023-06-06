@@ -1,23 +1,11 @@
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-// import resume from "../assets/Akash-Singh-Resume.pdf";
-// import resume from "";
-// import Home from './Home';
 import { Link } from "react-scroll";
 
 const Nav = () => {
   const [navbar, setbar] = useState(false);
-  // const resume = () => {};
-  // console.log(resume);
-  // console.log(navbar);
-
-  // const handleresumebutton = () => {
-  //   window.open(
-  //     "https://drive.google.com/file/d/1IjOTS4_dS3rXx9T80Ppr4-NG_Vh2lmRV/view?usp=sharing",
-  //     "_blank"
-  //   );
-  // };
+  
 
   function resume() {
     window.open(
@@ -35,6 +23,9 @@ const Nav = () => {
   ];
 
   return (
+
+    <React.Fragment>
+  
     <div id="nav-menu">
       <div className="flex justify-between items-center w-full h-15 px-5  text-white bg-black fixed">
         <div>
@@ -181,6 +172,10 @@ const Nav = () => {
         )}
       </div>
     </div>
+
+    </React.Fragment>
+
+
   );
 };
 
