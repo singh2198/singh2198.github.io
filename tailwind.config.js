@@ -15,5 +15,6 @@ module.exports = {
       ital:["ital"]
     }
   },
-  plugins: [require("tw-elements/dist/plugin.cjs")]
+  darkMode: "class",
+  
 }
