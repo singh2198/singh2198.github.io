@@ -9,7 +9,7 @@ const Nav = () => {
 
   function resume() {
     window.open(
-      "https://drive.google.com/file/d/10F8sgx3iLRN0Xf4mZwMU1hGUQnM6zoto/view?usp=sharing",
+      "",
       "_blank"
     );
   }
