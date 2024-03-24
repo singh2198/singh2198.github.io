@@ -10,7 +10,7 @@ const Nav = () => {
   function resume() {
     window.open(
       "",
-      "_blank"
+      ""
     );
   }
 
