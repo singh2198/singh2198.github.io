@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.54e8d612.css",
-    "main.js": "/static/js/main.5e18b98c.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "main.css": "/static/css/main.f720596f.css",
+    "main.js": "/static/js/main.a94baeab.js",
+    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/zeemovieapp.png": "/static/media/zeemovieapp.02e40622b75bd6c2ee0f.png",
     "static/media/ytapp.png": "/static/media/ytapp.6df964743e3db9d4f10c.png",
     "static/media/doorsteps.png": "/static/media/doorsteps.8c6a998147eed8c06219.png",
@@ -11,6 +11,7 @@
     "static/media/algorithm_visulizer.jpg": "/static/media/algorithm_visulizer.cc1e3f6554cd7426c18f.jpg",
     "static/media/akash-pic.jpg": "/static/media/akash-pic.b88824120dfdaecf821a.jpg",
     "static/media/typing.png": "/static/media/typing.a767cfa5352f3baf2605.png",
+    "static/media/microfrontend.png": "/static/media/microfrontend.53c65c6ccec0b789c283.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/githubstats.png": "/static/media/githubstats.a8295d7fdc99cd21a1a7.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -22,12 +23,12 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.54e8d612.css.map": "/static/css/main.54e8d612.css.map",
-    "main.5e18b98c.js.map": "/static/js/main.5e18b98c.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.f720596f.css.map": "/static/css/main.f720596f.css.map",
+    "main.a94baeab.js.map": "/static/js/main.a94baeab.js.map",
+    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54e8d612.css",
-    "static/js/main.5e18b98c.js"
+    "static/css/main.f720596f.css",
+    "static/js/main.a94baeab.js"
   ]
 }
