@@ -9,122 +9,203 @@ import nodejs from "../assets/node.png";
 import github from "../assets/github.png";
 import mongodb from "../assets/Mongodb.png"
 import TS from "../assets/TS.png"
+import ftl from "../assets/ftl.jpg"
+import microfrontend from "../assets/microfrontend.png"
 
-const Experiance = () => {
-  const projects = [
+
+const Experience = () => {
+  const skillCategories = [
     {
-      id: 1,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
+      title: "Frontend Development",
+      skills: [
+        {
+          id: 1,
+          src: html,
+          title: "HTML5",
+          color: "from-orange-400 to-orange-600",
+          hoverColor: "hover:from-orange-500 hover:to-orange-700"
+        },
+        {
+          id: 2,
+          src: css,
+          title: "CSS3",
+          color: "from-blue-400 to-blue-600",
+          hoverColor: "hover:from-blue-500 hover:to-blue-700"
+        },
+        {
+          id: 3,
+          src: javascript,
+          title: "JavaScript",
+          color: "from-yellow-400 to-yellow-600",
+          hoverColor: "hover:from-yellow-500 hover:to-yellow-700"
+        },
+        {
+          id: 4,
+          src: reactImage,
+          title: "React.js",
+          color: "from-blue-400 to-blue-600",
+          hoverColor: "hover:from-blue-500 hover:to-blue-700"
+        },
+        {
+          id: 5,
+          src: "https://angular.io/assets/images/logos/angular/angular.svg",
+          title: "Angular",
+          color: "from-red-400 to-red-600",
+          hoverColor: "hover:from-red-500 hover:to-red-700"
+        },
+        {
+          id: 6,
+          src: "https://material-ui.com/static/logo.png",
+          title: "Material UI",
+          color: "from-blue-400 to-blue-600",
+          hoverColor: "hover:from-blue-500 hover:to-blue-700"
+        },
+        {
+          id: 7,
+          src: "https://sass-lang.com/assets/img/styleguide/color-1c4aab2e.png",
+          title: "SCSS",
+          color: "from-pink-400 to-pink-600",
+          hoverColor: "hover:from-pink-500 hover:to-pink-700"
+        }
+      ]
     },
     {
-      id: 2,
-      src: html,
-      title: "HTML5",
-      style: "shadow-orange-500",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
+      title: "Backend Development",
+      skills: [
+        {
+          id: 8,
+          src: nodejs,
+          title: "Node.js",
+          color: "from-green-400 to-green-600",
+          hoverColor: "hover:from-green-500 hover:to-green-700"
+        },
+        {
+          id: 9,
+          src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEX////q6uqgoaEZGhtzc3SSk5Ourq5hYmLHx8f09PVOTk+7u7vf39+DhITT09M3ODgiPZ4kAAAAxElEQVR4Ac2OMQgBARSGv6sDQfbSKaWsHsgV6vZS9lK3F9lL2ctsvcmm7GWfyF5XNhvTbef+yT7x1ft7/f3/6/HHOC3r1gnmQLhGamYjDj5U7ALk7UbD4tp4T2EA4EnDFeGMxQygdQWqEwp+OQsBkXrlAU76nAA4Y2mlB2drotVMDMHN5mtMwbMYVeQjNsEKkaJcm3wv10fcl4Dr8zgSnQB2L/RYKdrKA3LW0etun6yFCMwsyTK6qzrFu733xbQOeAk/4gMf6S1GJRc9sQAAAABJRU5ErkJggg==",
+          title: "Express.js",
+          color: "from-gray-700 to-gray-900",
+          hoverColor: "hover:from-gray-800 hover:to-gray-900"
+        },
+        {
+          id: 10,
+          src: "https://freemarker.apache.org/images/freemarker-logo.png",
+          title: "FTL",
+          color: "from-purple-400 to-purple-600",
+          hoverColor: "hover:from-purple-500 hover:to-purple-700"
+        }
+      ]
     },
     {
-      id: 3,
-      src: javascript,
-      title: "Javascript",
-      style: "shadow-yellow-500",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
+      title: "Databases",
+      skills: [
+        {
+          id: 11,
+          src: mongodb,
+          title: "MongoDB",
+          color: "from-green-400 to-green-600",
+          hoverColor: "hover:from-green-500 hover:to-green-700"
+        },
+        {
+          id: 12,
+          src: "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+          title: "MySQL",
+          color: "from-blue-400 to-blue-600",
+          hoverColor: "hover:from-blue-500 hover:to-blue-700"
+        }
+      ]
     },
     {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-500",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
+      title: "DevOps & Tools",
+      skills: [
+        {
+          id: 13,
+          src: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
+          title: "Docker",
+          color: "from-blue-400 to-blue-600",
+          hoverColor: "hover:from-blue-500 hover:to-blue-700"
+        },
+        {
+          id: 14,
+          src: github,
+          title: "GitHub",
+          color: "from-gray-700 to-gray-900",
+          hoverColor: "hover:from-gray-800 hover:to-gray-900"
+        }
+      ]
     },
     {
-      id: 5,
-      src: github,
-      title: "Github",
-      style: "shadow-red-900",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
-    },
-    {
-      id: 6,
-      src: TS,
-      title: "TypeScript",
-      style: "shadow-blue-500",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
-    },
-    {
-      id: 7,
-      src: nextjs,
-      title: "Nextjs",
-      style: "shadow-orange-100",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
-    },
-    {
-      id: 8,
-      src: nodejs,
-      title: "nodejs",
-      style: "shadow-green-500",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
-    },
-    {
-      id: 9,
-      src: mongodb,
-      title: "MongoDb",
-      style: "shadow-green-500",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
-    },
-    {
-      id: 10,
-      src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEX////q6uqgoaEZGhtzc3SSk5Ourq5hYmLHx8f09PVOTk+7u7vf39+DhITT09M3ODgiPZ4kAAAAxElEQVR4Ac2OMQgBARSGv6sDQfbSKaWsHsgV6vZS9lK3F9lL2ctsvcmm7GWfyF5XNhvTbef+yT7x1ft7/f3/6/HHOC3r1gnmQLhGamYjDj5U7ALk7UbD4tp4T2EA4EnDFeGMxQygdQWqEwp+OQsBkXrlAU76nAA4Y2mlB2drotVMDMHN5mtMwbMYVeQjNsEKkaJcm3wv10fcl4Dr8zgSnQB2L/RYKdrKA3LW0etun6yFCMwsyTK6qzrFu733xbQOeAk/4gMf6S1GJRc9sQAAAABJRU5ErkJggg==",
-      title: "Express js",
-      style: "shadow-red-100",
-      climg:"skills-card-img",
-      clname:"skills-card-name"
-    },
+      title: "Others",
+      skills: [
+        {
+          id: 15,
+          src: TS,
+          title: "TypeScript",
+          color: "from-blue-400 to-blue-600",
+          hoverColor: "hover:from-blue-500 hover:to-blue-700"
+        },
+        // {
+        //   id: 16,
+        //   src: nextjs,
+        //   title: "Next.js",
+        //   color: "from-gray-700 to-gray-900",
+        //   hoverColor: "hover:from-gray-800 hover:to-gray-900"
+        // },
+        {
+          id: 17,
+          src: "https://micro-frontends.org/assets/demo9b7060.png",
+          title: "Micro Frontend",
+          color: "from-indigo-400 to-indigo-600",
+          hoverColor: "hover:from-indigo-500 hover:to-indigo-700"
+        }
+      ]
+    }
   ];
 
   return (
-    <div
-      id="skills"
-      name="Skills"
-      className="bg-gradient-to-b from-black to-gray-800 sm:w-full w-[127%] md:h-auto text-white "
-    >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8 mt-10">
-          <p className="text-3xl font-rig ">Skills</p>
-          {/* <p className='py-6'></p> */}
+    <div id="skills" name="Skills" className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white py-8 sm:py-12 px-2 sm:px-4 lg:px-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+            Skills & Technologies
+          </h2>
         </div>
-      </div>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-20 px-15 p-21px mx-10 grid-cols-2 sm:px-0  md:mx-20 mt-5 ">
-        {projects.map(({ id, src, style, title,climg,clname }) => (
-
-          <div class="skills-card ">
-          <div
-            key={id}
-            className={`shadow-lg  rounded-lg ${style} hover:cursor-pointer hover:scale-105 md:w-32 `}
-          >
-
-            <img  class={climg}  src={src} alt="dummy_img"   style={{width:"80px",marginLeft:"auto",marginRight:"auto"}} />
-            <p class={clname}   style={{marginTop:"16px",textAlign:"center",}}>{title}</p>
-
-          </div>
-          </div>
-        ))}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          {skillCategories.map((category, index) => (
+            <div 
+              key={index} 
+              className="bg-gray-800 rounded-lg p-3 sm:p-4 shadow-lg border border-gray-700 hover:shadow-xl transition-all duration-300"
+            >
+              <h3 className="text-lg sm:text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-3 sm:mb-4">
+                {category.title}
+              </h3>
+              <div className="flex flex-wrap gap-1.5 sm:gap-2">
+                {category.skills.map(({ id, src, title, color, hoverColor }) => (
+                  <div
+                    key={id}
+                    className="group flex items-center space-x-1.5 sm:space-x-2 bg-gray-700 rounded-lg px-2 sm:px-3 py-1 sm:py-1.5 hover:bg-gray-600 transition-all duration-300"
+                  >
+                    <div className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-gradient-to-br ${color} ${hoverColor} p-0.5 sm:p-1 transition-all duration-300`}>
+                      <div className="w-full h-full bg-gray-700 rounded-full flex items-center justify-center">
+                        <img
+                          src={src}
+                          alt={title}
+                          className="w-3 h-3 sm:w-4 sm:h-4 object-contain"
+                        />
+                      </div>
+                    </div>
+                    <h3 className="text-[10px] sm:text-xs font-semibold text-gray-300 group-hover:text-white transition-colors duration-300 whitespace-nowrap">
+                      {title}
+                    </h3>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
-export default Experiance;
+export default Experience;

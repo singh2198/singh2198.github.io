@@ -10,6 +10,7 @@ import Home from './Component/Home';
 import Nav from './Component/Nav';
 import Project from './Component/Project';
 import SocialLinks from './Component/SocialLinks';
+import WorkExperience from './Component/workexperiance';
 
 
 
@@ -19,13 +20,14 @@ function App() {
     
     <Nav/>
     <Home/>
-    <About/>
+    <WorkExperience/>
+    {/* <About/> */}
     <Project/>
     <Experience/>
-    <Github/>
+    {/* <Github/> */}
     <Contact/>
 
-    <SocialLinks/> 
+    {/* <SocialLinks/>  */}
 
     </>
   );

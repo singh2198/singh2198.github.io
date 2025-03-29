@@ -10,238 +10,122 @@ import { FaGithub } from "react-icons/fa";
 import {TbFileCode}  from "react-icons/tb"
 import {RxLink2} from "react-icons/rx"
 
-
 const Project = () => {
   const projects = [
     {
       id: 1,
       src: doorsteps,
-      title: "Nearbuy ",
+      title: "Nearbuy",
       github: "https://github.com/KaustubhN12/dizzy-stitch-9009",
       nitlify: "https://doorstep-iota.vercel.app/",
-      discreption:
-        "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories.Based upson Location",
-      techstack: "Reactjs , js , HTML , Chakra UI , Redux , MongoDB , Express , Nodejs",
-      clt: "project-title",
-      cld: "project-description",
-      cltech: "project-tech-stack",
-      clgit: "project-github-link",
-      cldep: "project-deployed-link",
-      clp: "project-card",
+      discreption: "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories.Based upson Location",
+      techstack: "Reactjs, js, HTML, Chakra UI, Redux, MongoDB, Express, Nodejs",
     },
     {
       id: 2,
       src: homedocar,
-      title: "E-commerce ",
+      title: "E-commerce",
       github: "https://github.com/snehilagrahari/Home-Decor",
       nitlify: "https://home-decor-omega.vercel.app/",
-      discreption:
-        "Home Decor is an E-commerce website providing products ranging from daily groceries to flashy accessories.",
-      techstack: "Reactjs , js , HTML , Chakra UI , Redux",
-      clt: "project-title",
-      cld: "project-description",
-      cltech: "project-tech-stack",
-      clgit: "project-github-link",
-      cldep: "project-deployed-link",
-      clp: "project-card",
+      discreption: "Home Decor is an E-commerce website providing products ranging from daily groceries to flashy accessories.",
+      techstack: "Reactjs, js, HTML, Chakra UI, Redux",
     },
     {
       id: 3,
       src: algorithm_visulizer,
-      title: " Algorithum Visulizer",
+      title: "Algorithm Visualizer",
       github: "https://github.com/singh2198/Algorithm_visualizer",
       nitlify: "https://heroic-pudding-0c0a14.netlify.app/",
-      discreption:
-        "It Visulize the Four sorting algorithm on display ,How it work in backgrond .",
-      techstack: "Reactjs, js, HTML ,CSS ,Four Algorithum",
-      clt: "project-title",
-      cld: "project-description",
-      cltech: "project-tech-stack",
-      clgit: "project-github-link",
-      cldep: "project-deployed-link",
-      clp: "project-card",
+      discreption: "It Visualize the Four sorting algorithm on display, How it work in background.",
+      techstack: "Reactjs, js, HTML, CSS, Four Algorithm",
     },
     {
       id: 4,
       src: typing,
-      title: "Speed Typing ",
+      title: "Speed Typing",
       github: "https://github.com/singh2198/typing_testing",
       nitlify: "https://chaabi-ny68.vercel.app/",
-      discreption:
-        "It Provide Typing Experiences ,it check your typing speed with WPM ,Average WPM and Accuracy and some additional feature is sound",
-      techstack: "Reactjs, javascript, HTML ,CSS ,",
-      clt: "project-title",
-      cld: "project-description",
-      cltech: "project-tech-stack",
-      clgit: "project-github-link",
-      cldep: "project-deployed-link",
-      clp: "project-card",
+      discreption: "It Provide Typing Experiences, it check your typing speed with WPM, Average WPM and Accuracy and some additional feature is sound",
+      techstack: "Reactjs, javascript, HTML, CSS",
     },
     {
       id: 5,
       src: youtube,
-      title: "Youtbe App",
+      title: "Youtube App",
       github: "https://github.com/singh2198/YT-app/tree/master/YT%20app",
       nitlify: "https://ubiquitous-swan-7471bb.netlify.app/",
-      discreption:
-        "Simple Youtube App with Search and video Playing functionality",
-      techstack: " javascript , HTML ,CSS",
-      clt: "project-title",
-      cld: "project-description",
-      cltech: "project-tech-stack",
-      clgit: "project-github-link",
-      cldep: "project-deployed-link",
-      clp: "project-card",
+      discreption: "Simple Youtube App with Search and video Playing functionality",
+      techstack: "javascript, HTML, CSS",
     },
-    // {
-    //   id: 6,
-    //   src: monday,
-    //   title: "Monday  ",
-    //   github:
-    //     "https://github.com/singh2198/prompt-toothbrush-9795/tree/day-2/monday",
-    //   nitlify: "https://phenomenal-druid-f85e5a.netlify.app/",
-    //   discreption:
-    //     "Monday.com is a cloud-based platform that allows users to create their own applications and project management software.",
-    //   techstack: "Reactjs ,js ,HTML ,CSS ,Localhost",
-    //   clt: "project-title",
-    //   cld: "project-description",
-    //   cltech: "project-tech-stack",
-    //   clgit: "project-github-link",
-    //   cldep: "project-deployed-link",
-    //   clp: "project-card",
-    // },
     {
       id: 6,
       src: zee,
-      title: "Zee App ",
-      github:
-        "https://github.com/singh2198/-screeching-idea-7572/tree/main/zee5",
+      title: "Zee App",
+      github: "https://github.com/singh2198/-screeching-idea-7572/tree/main/zee5",
       nitlify: "https://phenomenal-swan-bbd334.netlify.app/",
-      discreption:
-        "Online Movie App ,Clone of Zee movie app every time you refresh the page image is change .",
-      techstack: "Reactjs ,js ,HTML ,CSS ,external auth for authentication",
-      clt: "project-title",
-      cld: "project-description",
-      cltech: "project-tech-stack",
-      clgit: "project-github-link",
-      cldep: "project-deployed-link",
-      clp: "project-card",
+      discreption: "Online Movie App, Clone of Zee movie app every time you refresh the page image is change.",
+      techstack: "Reactjs, js, HTML, CSS, external auth for authentication",
     },
-    
-    
-    
-    
   ];
 
   return (
-    
-    <div
-      id="projects"
-      name="Project"
-      className="bg-gradient-to-b from-gray-800 to-gray-900 sm:w-full w-[127%] md:h-full text-white "
-    >
-      <div className="max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-3xl lime-height:3 font-rig" >Project</p>
-          {/* <p className='py-6'>Check out some of my work right here</p> */}
+    <div id="projects" name="Project" className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+            Projects
+          </h2>
         </div>
-      </div>
 
-      
-
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 px-15  sm:px-0 w-[90%]  m-auto">
-        
-        {projects.map(
-          ({
-            id,
-            src,
-            github,
-            nitlify,
-            discreption,
-            techstack,
-            title,
-            cld,
-            cldep,
-            clgit,
-            clp,
-            clt,
-            cltech,
-          }) => (
-
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map(({ id, src, title, github, nitlify, discreption, techstack }) => (
             <div
-              class={clp}
               key={id}
-              style={{border:'1px solid grey',borderRadius:'10px' ,padding:'10px'}}
-              // className="shadow-md shadow-gray-600 rounded-lg w-[98%] sm:w-[100%] "
+              className="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl border border-gray-700"
             >
-              
-              <img
-                src={src}
-                alt=""
-                // width={'100%'}
-                className="rounded-md duration-200 hover:scale-105 "
-              />
-
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+              <div className="relative overflow-hidden">
+                <img
+                  src={src}
+                  alt={title}
+                  className="w-full h-48 object-cover transform transition-transform duration-300 hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
                   <a
                     href={github}
-                    
                     target="_blank"
                     rel="noreferrer"
+                    className="p-2 rounded-full bg-gray-800 hover:bg-blue-500 transition-colors duration-300"
                   >
-                    <div style={{display:'flex', justifyContent:'center'}}>
-                      {/* <p class={clgit}>Code</p> */}
-                      {/* <TbFileCode size={30} class={clgit}  ></TbFileCode> */}
-                      <FaGithub size={30} class={clgit}></FaGithub>
-                    </div>
+                    <FaGithub size={24} className="text-white" />
                   </a>
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a
                     href={nitlify}
                     target="_blank"
                     rel="noreferrer"
-                    
+                    className="p-2 rounded-full bg-gray-800 hover:bg-blue-500 transition-colors duration-300"
                   >
-                    <div style={{display:'flex', justifyContent:'center'}}>
-                      {/* <p class={cldep}>Demo</p> */}
-                      {/* <FaGithub class={cldep} size={30}></FaGithub> */}
-                      <RxLink2 class={cldep} size={30}></RxLink2>
-                    </div>
+                    <RxLink2 size={24} className="text-white" />
                   </a>
-                </button>
+                </div>
               </div>
 
-              <div className="">
-                <div className="flex justify-center">
-                  <h1
-                    
-                    className="text-2xl font-signature text-center text-grey-200  w-[66%]  font-light   rounded-md"
-                  >
-                    <h3 class={clt}>{title}</h3>  
-                  </h1>
-                </div>
-                <div className=" m-4">
-                  <p
-                    // class={cld}
-                    className="text-gray-400  text-sm font-rig hover:cursor-pointer  hover:duration-700 hover:scale-95"
-                  >
-                    <p class={cld}>{discreption}</p>
-                  </p>
-                </div>
-
-                <div className="m-4 text-gray-400 text-sm font-rig text-start hover:cursor-pointer hover:duration-1000   font-thin hover:scale-95">
-                  <p class={cltech}>Tech Stack:-{techstack}</p>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-blue-400 mb-2">{title}</h3>
+                <p className="text-gray-300 text-sm mb-4">{discreption}</p>
+                <div className="flex flex-wrap gap-2">
+                  {techstack.split(',').map((tech, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 bg-gray-700 rounded-full text-sm text-blue-300 hover:bg-blue-500 hover:text-white transition-colors duration-300"
+                    >
+                      {tech.trim()}
+                    </span>
+                  ))}
                 </div>
               </div>
             </div>
-
-
-          
-          )
-        )}
+          ))}
+        </div>
       </div>
     </div>
   );
