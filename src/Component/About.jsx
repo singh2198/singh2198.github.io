@@ -9,6 +9,7 @@ const About = () => {
             About Me
           </h2>
         </div>
+        
 
         <div className="bg-gray-800 rounded-lg p-8 shadow-lg transform transition-all duration-300 hover:shadow-xl border border-gray-700">
           <div className="space-y-6">
