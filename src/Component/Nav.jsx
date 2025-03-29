@@ -8,14 +8,14 @@ const Nav = () => {
 
   function resume() {
     window.open(
-      "https://drive.google.com/file/d/10F8sgx3iLRN0Xf4mZwMU1hGUQnM6zoto/view?usp=sharing",
+      "https://drive.google.com/file/d/1NYxO9S2DSZ9t-qm5m8DL7rd63Ctekk02/view?usp=sharing",
       "_blank"
     );
   }
 
   const navLinks = [
     { id: 1, link: "home", label: "Home" },
-    { id: 2, link: "about", label: "About" },
+    // { id: 2, link: "about", label: "About" },
     { id:3,  link:"Work Experience", label:"Work Experience"},
     { id: 4, link: "Skills", label: "Skills" },
     { id: 5, link: "Project", label: "Projects" },

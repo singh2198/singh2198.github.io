@@ -9,8 +9,9 @@ import nodejs from "../assets/node.png";
 import github from "../assets/github.png";
 import mongodb from "../assets/Mongodb.png"
 import TS from "../assets/TS.png"
-import ftl from "../assets/ftl.jpg"
+import ftl from "../assets/ftl.png"
 import microfrontend from "../assets/microfrontend.png"
+import scss from "../assets/scss.png"
 
 
 const Experience = () => {
@@ -62,7 +63,7 @@ const Experience = () => {
         },
         {
           id: 7,
-          src: "https://sass-lang.com/assets/img/styleguide/color-1c4aab2e.png",
+          src: scss,
           title: "SCSS",
           color: "from-pink-400 to-pink-600",
           hoverColor: "hover:from-pink-500 hover:to-pink-700"
@@ -88,7 +89,7 @@ const Experience = () => {
         },
         {
           id: 10,
-          src: "https://freemarker.apache.org/images/freemarker-logo.png",
+          src: ftl,
           title: "FTL",
           color: "from-purple-400 to-purple-600",
           hoverColor: "hover:from-purple-500 hover:to-purple-700"
@@ -152,7 +153,7 @@ const Experience = () => {
         // },
         {
           id: 17,
-          src: "https://micro-frontends.org/assets/demo9b7060.png",
+          src: microfrontend,
           title: "Micro Frontend",
           color: "from-indigo-400 to-indigo-600",
           hoverColor: "hover:from-indigo-500 hover:to-indigo-700"

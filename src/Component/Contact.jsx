@@ -22,13 +22,13 @@ const Contact = () => {
       href: "https://github.com/singh2198",
       label: "GitHub"
     },
-    {
-      id: 3,
-      idd: "contact-email",
-      child: <HiOutlineMail size={24} />,
-      href: "mailto:8755akash@gmail.com",
-      label: "Email"
-    },
+    // {
+    //   id: 3,
+    //   idd: "contact-email",
+    //   child: <HiOutlineMail size={24} />,
+    //   href: "mailto:8755akash@gmail.com",
+    //   label: "Email"
+    // },
     // {
     //   id: 4,
     //   child: (
@@ -107,9 +107,7 @@ const Contact = () => {
                 <div className="space-y-3 sm:space-y-4">
                   <div className="flex items-center space-x-2 sm:space-x-3 text-sm sm:text-base text-gray-300">
                     <a 
-                      href="mailto:8755akash@gmail.com?subject=Portfolio Contact" 
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="mailto:8755akash@gmail.com"
                       className="flex items-center space-x-2 sm:space-x-3 text-sm sm:text-base text-gray-300 hover:text-blue-400 transition-colors duration-300 cursor-pointer"
                     >
                       <HiOutlineMail size={18} className="text-blue-400" />
