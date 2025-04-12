@@ -17,7 +17,7 @@ const Home = () => {
       name="home"
       className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8"
     >
-      <div className="max-w-6xl mx-auto mt-4">
+      <div className="max-w-6xl mx-auto mt-16">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left space-y-8">

@@ -86,13 +86,6 @@ const Experience = () => {
           title: "Express.js",
           color: "from-gray-700 to-gray-900",
           hoverColor: "hover:from-gray-800 hover:to-gray-900"
-        },
-        {
-          id: 10,
-          src: ftl,
-          title: "FTL",
-          color: "from-purple-400 to-purple-600",
-          hoverColor: "hover:from-purple-500 hover:to-purple-700"
         }
       ]
     },
@@ -157,6 +150,13 @@ const Experience = () => {
           title: "Micro Frontend",
           color: "from-indigo-400 to-indigo-600",
           hoverColor: "hover:from-indigo-500 hover:to-indigo-700"
+        },
+        {
+          id: 10,
+          src: ftl,
+          title: "FTL",
+          color: "from-purple-400 to-purple-600",
+          hoverColor: "hover:from-purple-500 hover:to-purple-700"
         }
       ]
     }

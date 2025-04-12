@@ -1,8 +1,17 @@
 import React from "react";
+import { useState, useEffect } from "react";
 // import "./workexperiance.css";
 
 const WorkExperience = () => {
   // Sample work experience data - you can replace this with your own data
+
+  const [totalexperiance, seTtotalexperiance] = useState("")
+
+  useEffect(() => {
+    calculateTotalExperience();
+  });
+
+
   const workExperiences = [
     {
       company: "Bootnext Tech Venture Private ltd.",
@@ -14,10 +23,33 @@ const WorkExperience = () => {
         "Designed and implemented Microfrontend-based architecture, enabling modular and scalable frontend applications.",
         "Collaborated with senior developers and cross-functional teams (DevOps, QA, etc.) to debug, optimize, and deploy production-ready features."
       ],
+      startYear:"1 JULY 2023",
+      endYear:"",
       skills: ["Javascript","Angular","FreeMarker Template Language","MySql"],
     },
     // Add more work experiences as needed
   ];
+
+  const calculateTotalExperience = () => {
+    let totalMonths = 0;
+    
+    workExperiences.forEach(experience => {
+      const startDate = new Date(experience.startYear);
+      const endDate = experience.endYear ? new Date(experience.endYear) : new Date();
+      const diffTime = Math.abs(endDate - startDate);
+      const diffMonths = Math.ceil(diffTime / (1000 * 60 * 60 * 24 * 30.44)); 
+      totalMonths += diffMonths;
+    });
+
+    const years = Math.floor(totalMonths / 12);
+    const months = totalMonths % 12;
+    const totalExperience = `${years} year${years !== 1 ? 's' : ''} ${months} month${months !== 1 ? 's' : ''}`;
+
+    seTtotalexperiance(totalExperience);
+  
+  };
+
+  
 
   return (
     <div  name="Work Experience" className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white py-8 sm:py-12 px-2 sm:px-4 lg:px-8">
@@ -26,6 +58,7 @@ const WorkExperience = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
             Work Experience
           </h2>
+          <p className="mt-2 text-gray-300 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"> {totalexperiance}</p>
         </div>
 
         <div className="space-y-6 sm:space-y-8">
