@@ -2,7 +2,7 @@ import React from "react";
 import akashimg from "../assets/akash-pic.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Typewriter from "typewriter-effect";
-
+import certification from "../assets/masai-certificate.jpg";
 const Home = () => {
   function resume() {
     window.open(
@@ -69,6 +69,17 @@ const Home = () => {
                 className="relative rounded-full w-64 h-64 object-cover border-4 border-gray-700 shadow-2xl hover:border-blue-500 transition-all duration-300 transform hover:scale-105"
               />
             </div>
+          </div>
+        </div>
+        { /* Certification   */}
+        <div className="mt-12 flex justify-end px-4 sm:px-6 lg:px-8">
+          <div className="w-full max-w-md lg:max-w-lg">
+            <img 
+              src={certification} 
+              alt="Certification"  
+              className="w-full h-auto object-contain border-4 border-gray-700 shadow-2xl hover:border-blue-500 transition-all duration-300 transform hover:scale-105 rounded-lg"
+              style={{ maxHeight: "400px" }}
+            />
           </div>
         </div>
       </div>
