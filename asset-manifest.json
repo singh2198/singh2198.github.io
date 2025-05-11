@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.f720596f.css",
-    "main.js": "/static/js/main.8792b38a.js",
+    "main.css": "/static/css/main.2e0fdc47.css",
+    "main.js": "/static/js/main.14de52ae.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/masai-certificate.jpg": "/static/media/masai-certificate.5ff2d6f45ca8655a5d72.jpg",
     "static/media/zeemovieapp.png": "/static/media/zeemovieapp.02e40622b75bd6c2ee0f.png",
     "static/media/ytapp.png": "/static/media/ytapp.6df964743e3db9d4f10c.png",
     "static/media/doorsteps.png": "/static/media/doorsteps.8c6a998147eed8c06219.png",
@@ -23,12 +24,12 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.f720596f.css.map": "/static/css/main.f720596f.css.map",
-    "main.8792b38a.js.map": "/static/js/main.8792b38a.js.map",
+    "main.2e0fdc47.css.map": "/static/css/main.2e0fdc47.css.map",
+    "main.14de52ae.js.map": "/static/js/main.14de52ae.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f720596f.css",
-    "static/js/main.8792b38a.js"
+    "static/css/main.2e0fdc47.css",
+    "static/js/main.14de52ae.js"
   ]
 }
