@@ -6,7 +6,7 @@ import certification from "../assets/masai-certificate.jpg";
 const Home = () => {
   function resume() {
     window.open(
-      "https://drive.google.com/file/d/1NYxO9S2DSZ9t-qm5m8DL7rd63Ctekk02/view?usp=sharing",
+      "https://drive.google.com/file/d/15hm_-6OQFyIkRmAiDD2-nAUZsH9eC801/view?usp=sharing",
       "_blank"
     );
   }
@@ -39,7 +39,7 @@ const Home = () => {
               </h1>
               
               <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                Frontend Developer with two years of experience building enterprise applications in a product-based startup. 
+                Frontend Developer with almost two years of experience building enterprise applications in a product-based startup. 
                 Proficient in modern frontend frameworks, including Angular and ReactJS.
                 Experienced in implementing Keycloak authentication and working with FTL (Freemarker Template Language). 
                 Skilled in collaborating with cross-functional teams to develop scalable, user-centric solutions.
