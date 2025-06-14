@@ -14,7 +14,7 @@ const WorkExperience = () => {
 
   const workExperiences = [
     {
-      company: "Bootnext Tech Venture Private ltd.",
+      company: "Visionwaves Technologies Private Limited.",
       position: "Associate Software Developer",
       duration: "2023 - Present",
       description: [
