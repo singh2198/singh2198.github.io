@@ -6,11 +6,10 @@ import certification from "../assets/masai-certificate.jpg";
 const Home = () => {
   function resume() {
     window.open(
-      "https://drive.google.com/file/d/1KaOMVeW3VPTvRWBjGvYgJ_n6yYb3yeGz/view?usp=sharing",
+      "https://drive.google.com/file/d/1WlIedQsMHr8Pu3KpiEEyUqXs_4dZImRZ/view?usp=sharing",
       "_blank"
     );
   }
-
   return (
     <div
       id="home"
