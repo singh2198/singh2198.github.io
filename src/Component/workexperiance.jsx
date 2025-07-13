@@ -21,11 +21,12 @@ const WorkExperience = () => {
         "Developing and maintaining enterprise-level web applications using Angular.",
         "Collaborated with backend teams to integrate APIs, optimize UI performance, and ensure seamless user experience.",
         "Designed and implemented Microfrontend-based architecture, enabling modular and scalable frontend applications.",
-        "Collaborated with senior developers and cross-functional teams (DevOps, QA, etc.) to debug, optimize, and deploy production-ready features."
+        "Collaborated with senior developers and cross-functional teams (DevOps, QA, etc.) to debug, optimize, and deploy production-ready features.",
+        "Resolved 300–900+ SonarQube issues in one application and across 8+ enterprise applications, fixing functional logic bugs, reducing cognitive complexity, and enhancing overall code quality and maintainability."
       ],
       startYear:"1 JULY 2023",
       endYear:"",
-      skills: ["Javascript","Angular","FreeMarker Template Language","MySql"],
+      skills: ["HTML","CSS","Javascript","Angular","Ngrx","Rxjs","Micro-frontend","Docker","Nginx","FTL","MySQL"],
     },
     // Add more work experiences as needed
   ];
@@ -53,7 +54,7 @@ const WorkExperience = () => {
 
   return (
     <div  name="Work Experience" className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white py-8 sm:py-12 px-2 sm:px-4 lg:px-8">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
             Work Experience
