@@ -8,7 +8,7 @@ const Nav = () => {
 
   function resume() {
     window.open(
-      "https://drive.google.com/file/d/1WlIedQsMHr8Pu3KpiEEyUqXs_4dZImRZ/view?usp=sharing",
+      "https://drive.google.com/file/d/1YE4JQPJk_sX-m3Qu5ul-MwTFDe4IN40u/view?usp=sharing",
       "_blank"
     );
   }

@@ -57,15 +57,15 @@ const Project = () => {
     //   discreption: "Simple Youtube App with Search and video Playing functionality",
     //   techstack: "javascript, HTML, CSS",
     // },
-    {
-      id: 6,
-      src: zee,
-      title: "Zee App",
-      github: "https://github.com/singh2198/-screeching-idea-7572/tree/main/zee5",
-      nitlify: "https://phenomenal-swan-bbd334.netlify.app/",
-      discreption: "Online Movie App, Clone of Zee movie app every time you refresh the page image is change.",
-      techstack: "Reactjs, js, HTML, CSS, external auth for authentication",
-    },
+    // {
+    //   id: 6,
+    //   src: zee,
+    //   title: "Zee App",
+    //   github: "https://github.com/singh2198/-screeching-idea-7572/tree/main/zee5",
+    //   nitlify: "https://phenomenal-swan-bbd334.netlify.app/",
+    //   discreption: "Online Movie App, Clone of Zee movie app every time you refresh the page image is change.",
+    //   techstack: "Reactjs, js, HTML, CSS, external auth for authentication",
+    // },
   ];
 
   return (

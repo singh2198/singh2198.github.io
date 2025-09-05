@@ -18,6 +18,7 @@ const WorkExperience = () => {
       position: "Associate Software Developer",
       duration: "2023 - Present",
       description: [
+        "Automated workflows in the vision-ai project using Apache NiFi by building easy-to-use forms for different processors. Used Angular’s Reactive Forms, together with NgRx and RxJS so users can fill out a form and set uptheir workflow, making the setup process flexible and user-friendly for different needs.",
         "Developing and maintaining enterprise-level web applications using Angular.",
         "Collaborated with backend teams to integrate APIs, optimize UI performance, and ensure seamless user experience.",
         "Designed and implemented Microfrontend-based architecture, enabling modular and scalable frontend applications.",
@@ -26,7 +27,7 @@ const WorkExperience = () => {
       ],
       startYear:"1 JULY 2023",
       endYear:"",
-      skills: ["HTML","CSS","Javascript","Angular","Ngrx","Rxjs","Micro-frontend","Docker","Nginx","FTL","MySQL"],
+      skills: ["HTML","CSS","Javascript","Angular","Ngrx","Rxjs","Micro-frontend","Docker","Nginx","FTL","MySQL","D3"],
     },
     // Add more work experiences as needed
   ];

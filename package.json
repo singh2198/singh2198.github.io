@@ -18,7 +18,7 @@
     "react-github-calendar": "^3.4.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.6.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "taos": "^1.0.3",
     "tw-elements": "^1.0.0-beta2",
@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "cypress": "^12.7.0",
+    "cypress": "^15.1.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
   }
