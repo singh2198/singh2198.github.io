@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.362d165a.css",
-    "main.js": "/static/js/main.f5ff3170.js",
+    "main.js": "/static/js/main.bb773bdc.js",
     "static/js/453.5d79306b.chunk.js": "/static/js/453.5d79306b.chunk.js",
     "static/media/masai-certificate.jpg": "/static/media/masai-certificate.5ff2d6f45ca8655a5d72.jpg",
     "static/media/zeemovieapp.png": "/static/media/zeemovieapp.02e40622b75bd6c2ee0f.png",
     "static/media/ytapp.png": "/static/media/ytapp.6df964743e3db9d4f10c.png",
+    "static/media/bloodmanagement.png": "/static/media/bloodmanagement.0d4720ab788c0a43fde5.png",
     "static/media/doorsteps.png": "/static/media/doorsteps.8c6a998147eed8c06219.png",
     "static/media/home-docar.png": "/static/media/home-docar.30b6edf3a72cc868eca1.png",
     "static/media/monday.jpg": "/static/media/monday.762ad6e9ae00d08d1af5.jpg",
@@ -25,11 +26,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.362d165a.css.map": "/static/css/main.362d165a.css.map",
-    "main.f5ff3170.js.map": "/static/js/main.f5ff3170.js.map",
+    "main.bb773bdc.js.map": "/static/js/main.bb773bdc.js.map",
     "453.5d79306b.chunk.js.map": "/static/js/453.5d79306b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.362d165a.css",
-    "static/js/main.f5ff3170.js"
+    "static/js/main.bb773bdc.js"
   ]
 }
