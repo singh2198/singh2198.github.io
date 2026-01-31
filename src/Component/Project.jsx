@@ -9,17 +9,18 @@ import typing from "../assets/portfolio/typing.png"
 import { FaGithub } from "react-icons/fa";
 import {TbFileCode}  from "react-icons/tb"
 import {RxLink2} from "react-icons/rx"
+import BloodManagement_System from "../assets/portfolio/bloodmanagement.png"
 
 const Project = () => {
   const projects = [
     {
       id: 1,
-      src: doorsteps,
-      title: "Nearbuy",
-      github: "https://github.com/KaustubhN12/dizzy-stitch-9009",
-      nitlify: "https://doorstep-iota.vercel.app/",
-      discreption: "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories.Based upson Location",
-      techstack: "Reactjs, js, HTML, Chakra UI, Redux, MongoDB, Express, Nodejs",
+      src:BloodManagement_System,
+      title: "Blood Management System",
+      github: "https://github.com/singh2198/Bloodmanagement",
+      nitlify: "https://uiblood.vercel.app/",
+      discreption: "The Blood Bank Management System (BBMS) is a web-based platform designed to streamline the management of blood donations, hospital requests, and inventory tracking.",
+      techstack: "Reactjs, javascript, Nodejs, Express, MongoDB, Middleware, Authentication",
     },
     {
       id: 2,
@@ -48,6 +49,16 @@ const Project = () => {
       discreption: "It Provide Typing Experiences, it check your typing speed with WPM, Average WPM and Accuracy and some additional feature is sound",
       techstack: "Reactjs, javascript, HTML, CSS",
     },
+    {
+      id:5,
+      src: doorsteps,
+      title: "Nearbuy",
+      github: "https://github.com/KaustubhN12/dizzy-stitch-9009",
+      nitlify: "https://doorstep-iota.vercel.app/",
+      discreption: "Nearbuy Clone is MERN Stack web application that allows you to buy voucher and coupons. It has a variety of categories.Based upson Location",
+      techstack: "Reactjs, js, HTML, Chakra UI, Redux, MongoDB, Express, Nodejs",
+
+    }
     // {
     //   id: 5,
     //   src: youtube,
