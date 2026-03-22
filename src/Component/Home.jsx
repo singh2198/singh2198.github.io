@@ -6,7 +6,7 @@ import certification from "../assets/masai-certificate.jpg";
 const Home = () => {
   function resume() {
     window.open(
-      "https://drive.google.com/file/d/1UQEQ4c9cH4a_mohGLePVYd-5DIEyjqTw/view?usp=sharing",
+      "https://drive.google.com/file/d/1KLf4VFQX_5mumfVbbYI-ZseiW2qH8jsp/view?usp=sharing",
       "_blank"
     );
   }
