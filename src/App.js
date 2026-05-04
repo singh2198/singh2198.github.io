@@ -5,6 +5,7 @@ import Contact from './Component/Contact';
 import Experience from './Component/Experience';
 import Github from './Component/Github';
 import Home from './Component/Home';
+import Hooks from './Component/Hooks';
 // import { BrowserRouter } from 'react-router-dom';
 
 import Nav from './Component/Nav';
@@ -26,6 +27,7 @@ function App() {
     <Experience/>
     {/* <Github/> */}
     <Contact/>
+    {/* <Hooks/> */}
 
     {/* <SocialLinks/>  */}
 
