@@ -15,11 +15,11 @@ const WorkExperience = () => {
   const workExperiences = [
     {
       company: "Visionwaves Technologies Private Limited.",
-      position: "Associate Software Developer",
+      position: "Full Stack Developer",
       duration: "2023 - Present",
       description: [
-        "Automated workflows in the vision-ai project using Apache NiFi by building easy-to-use forms for different processors. Used Angular’s Reactive Forms, together with NgRx and RxJS so users can fill out a form and set uptheir workflow, making the setup process flexible and user-friendly for different needs.",
-        "Developing and maintaining enterprise-level web applications using Angular.",
+        "Developed AI-powered workflow automation platforms and custom AI agent solutions, reducing manual effort and improving operational efficiency through intelligent task orchestration.",
+        "Developed and maintained enterprise-scale web applications using Angular, React, TypeScript, and micro-frontend architecture.",
         "Collaborated with backend teams to integrate APIs, optimize UI performance, and ensure seamless user experience.",
         "Designed and implemented Microfrontend-based architecture, enabling modular and scalable frontend applications.",
         "Collaborated with senior developers and cross-functional teams (DevOps, QA, etc.) to debug, optimize, and deploy production-ready features.",

@@ -38,9 +38,10 @@ const Home = () => {
               </h1>
               
               <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Frontend Developer with 2+ years of experience building enterprise applications in a product-based startup.
-              Strong team collaborator, focused on creating scalable, user-friendly, and responsive web applications.
-              Passionate about UI best practices and exploring modern web technologies to improve user experience.
+             Full Stack Developer with 3 years of experience building enterprise-scale web applications in a product-based startup environment. 
+              Experienced in developing solutions across multiple domains, including Governance, Workflow Automation, AI Agents, and API Gateway platforms. 
+              Proficient in Angular, React, and Next.js, with a strong focus on creating scalable, responsive, and user-friendly applications.
+         
 
               </p>
             </div>
