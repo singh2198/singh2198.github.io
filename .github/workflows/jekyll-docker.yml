@@ -21,7 +21,7 @@ jobs:
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: ${{ github.ref == 'refs/heads/1.0.0' && github.event_name == 'push' }}  # or '1.0.0' depending on your default branch
+      if: ${{ github.ref == 'refs/heads/main' }}  # or '1.0.0' depending on your default branch
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site 
