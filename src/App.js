@@ -18,19 +18,13 @@ import WorkExperience from './Component/workexperiance';
 function App() {
   return (
     <>
-    
     <Nav/>
     <Home/>
+    <About/>
     <WorkExperience/>
-    {/* <About/> */}
-    <Project/>
     <Experience/>
-    {/* <Github/> */}
+    <Project/>
     <Contact/>
-    {/* <Hooks/> */}
-
-    {/* <SocialLinks/>  */}
-
     </>
   );
 }

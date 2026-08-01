@@ -159,6 +159,46 @@ const Experience = () => {
           hoverColor: "hover:from-purple-500 hover:to-purple-700"
         }
       ]
+    },
+    {
+      title: "Soft Skills",
+      skills: [
+        {
+          id: 18,
+          src: "https://cdn-icons-png.flaticon.com/512/3281/3281307.png",
+          title: "Communication",
+          color: "from-teal-400 to-teal-600",
+          hoverColor: "hover:from-teal-500 hover:to-teal-700"
+        },
+        {
+          id: 19,
+          src: "https://cdn-icons-png.flaticon.com/512/1256/1256650.png",
+          title: "Teamwork",
+          color: "from-cyan-400 to-cyan-600",
+          hoverColor: "hover:from-cyan-500 hover:to-cyan-700"
+        },
+        {
+          id: 20,
+          src: "https://cdn-icons-png.flaticon.com/512/1792/1792153.png",
+          title: "Problem Solving",
+          color: "from-amber-400 to-amber-600",
+          hoverColor: "hover:from-amber-500 hover:to-amber-700"
+        },
+        {
+          id: 21,
+          src: "https://cdn-icons-png.flaticon.com/512/974/974510.png",
+          title: "Adaptability",
+          color: "from-lime-400 to-lime-600",
+          hoverColor: "hover:from-lime-500 hover:to-lime-700"
+        },
+        {
+          id: 22,
+          src: "https://cdn-icons-png.flaticon.com/512/4300/4300058.png",
+          title: "Leadership",
+          color: "from-emerald-400 to-emerald-600",
+          hoverColor: "hover:from-emerald-500 hover:to-emerald-700"
+        }
+      ]
     }
   ];
 
