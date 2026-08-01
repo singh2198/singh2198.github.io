@@ -10,12 +10,12 @@ const Nav = () => {
     if (e && e.preventDefault) e.preventDefault();
     // 1. Open view page in a new tab
     window.open(
-      "https://drive.google.com/file/d/1bGH9eplwG4PotUYyMEuEq1AnXVSqhqtl/view?usp=sharing",
+      "https://drive.google.com/file/d/1Yxcx9QRQNj9e8BKh2-c3qCnyN3cyx3w2/view?usp=sharing",
       "_blank"
     );
     // 2. Trigger automatic download of the file
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1bGH9eplwG4PotUYyMEuEq1AnXVSqhqtl";
+    link.href = "https://drive.google.com/file/d/1Yxcx9QRQNj9e8BKh2-c3qCnyN3cyx3w2/view?usp=sharing";
     link.target = "_blank";
     document.body.appendChild(link);
     link.click();
