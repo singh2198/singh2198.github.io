@@ -10,12 +10,12 @@ const Home = () => {
       "_blank"
     );
     // 2. Trigger automatic download of the file
-    const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1Yxcx9QRQNj9e8BKh2-c3qCnyN3cyx3w2/view?usp=sharing";
-    link.target = "_blank";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // const link = document.createElement("a");
+    // link.href = "https://drive.google.com/file/d/1Yxcx9QRQNj9e8BKh2-c3qCnyN3cyx3w2/view?usp=sharing";
+    // link.target = "_blank";
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
   }
 
   return (
